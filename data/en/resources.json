@@ -1,4 +1,6 @@
 {
     "start": "Start by Searching!",
-    "header": "Pathfinder Feats Web"
+    "header": "Pathfinder Feats Web",
+    "logGraphLoaded": "Graph loaded!",
+    "search": "Search..."
 }

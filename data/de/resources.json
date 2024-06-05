@@ -1,4 +1,6 @@
 {
     "start": "Starte mit einer Suche!",
-    "header": "Pathfinder Talentegrafik"
+    "header": "Pathfinder Talentegrafik",
+    "logGraphLoaded": "Grafik geladen!",
+    "search": "Suchen..."
 }

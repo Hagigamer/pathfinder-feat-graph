@@ -97,5 +97,5 @@ cy.on('unselect', 'node', function (event) {
 });
 
 cy.ready(event => {
-  console.log("Graph Loaded!");
+  console.log("Graph loaded!");
 });
