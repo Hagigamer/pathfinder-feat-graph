@@ -13,11 +13,11 @@
 
 <body>
 
-  <h1  class="position-absolute top-0 start-0">Pathfinder Feats Web</h1>
-
-  <h1 id="splash" class="position-absolute top-50 start-50 translate-middle">Start by Searching!</h1>
+  <h1 class="position-absolute top-0 start-0" resource="header">Pathfinder Feats Web</h1>
+  <h1><l-tag key="hello_world"></l-tag></h1>
+  <h1 id="splash" class="position-absolute top-50 start-50 translate-middle" resource="start">Start by Searching!</h1>
   <div id="cy" class="vw-100 vh-100"></div>
-  <div class="position-absolute top-0 end-0 w-25 mw-25 border border-primary rounded bg-primary-subtle form-floating">
+  <div class="position-absolute top-0 end-0 w-25 mw-25 border border-primary rounded bg-primary-subtle form-floating" style="margin: 1rem;">
     <input id="search" class="form-control" type="search" dir="ltr" spellcheck=false autocorrect="off"
       autocomplete="off" autocapitalize="off">
     <div id="feat-info" class="d-none">
@@ -81,6 +81,7 @@
     crossorigin="anonymous"></script>
   <!-- My Code -->
   <script src="code/code.js"></script>
+  <script src="code/localization.js"></script>
 </body>
 
 </html>
