@@ -4,8 +4,8 @@ String.prototype.toCamelCase = function toCamelCase() {
 
 const cy = cytoscape({
   container: document.getElementById('cy'), // container to render in
-  elements: fetch('data/mst.json').then(res => res.json()),
-  style: fetch('style/cy-style.json').then(res => res.json()),
+  elements: fetch('data/de/talents.json').then(res => res.json()),
+  style: fetch('style/cy-style.json').then(res => res.json()), //pfad ändern
   layout: { name: 'grid' },
   autoungrabify: true,
   minZoom: 0.2,
@@ -15,10 +15,10 @@ const cy = cytoscape({
 
 const search = new autoComplete({
   selector: "#search",
-  placeHolder: "Search...",
+  placeHolder: "Search...", //text ändern
   data: {
-    src: fetch('data/mst.json').then(res => res.json()).then(graphData => graphData.nodes.map(node => node.data.name))
-  },
+    src: fetch('data/de/talents.json').then(res => res.json()).then(graphData => graphData.nodes.map(node => node.data.name))
+  }, //pfad ändern
   resultItem: {
     highlight: true,
   },
