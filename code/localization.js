@@ -27,15 +27,20 @@ function GetCurrentOrDefaultLocale(locales)
 }
 
 // Changes current locale.
-async function setLocale(newLocale)
-{
-    if (newLocale === locale)
-        return;
+async function setLocale(newLocale) {
+    if (newLocale === locale) return;
+  
     const newTranslations = await fetchTranslations(newLocale);
     locale = newLocale;
     translations = newTranslations;
     translatePage();
-}
+  
+    // Call the graph update from code.js
+    if (typeof updateGraphForLocale === 'function') {
+      updateGraphForLocale(newLocale);
+    }
+  }
+  
 
 // Retrieves translations from the server.
 async function fetchTranslations(newLocale)
@@ -59,14 +64,16 @@ function translateElement(element)
 }
 
 // Creates an event handler and binds it to selection change of the resource switcher.
-function bindLocaleSwitcher(initialValue)
+function bindLocaleSwitcher(initialValue) 
 {
     const switcher = document.querySelector("[resource-switcher]");
     switcher.value = initialValue;
-    switcher.onchange = (e) => {
-        setLocale(e.target.value);
-    }
+    switcher.onchange = async (e) => {
+        console.log("Language changed to:", e.target.value); // Debug log to check if the handler is firing
+        await setLocale(e.target.value); // Ensure async is handled here
+    };
 }
+
 
 // Reads the preferred language from the browser.
 function browserLocales(languageCodeOnly = false) 
