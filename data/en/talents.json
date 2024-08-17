@@ -23,7 +23,7 @@
                 "completionBenefit": "",
                 "note": "",
                 "printSource": "PFRPG Core",
-                "number": "1"
+                "number": 1
             }
         },
         {
@@ -43,7 +43,7 @@
                 "completionBenefit": "",
                 "note": "",
                 "printSource": "PFRPG Core",
-                "number": "2"
+                "number": 2
             }
         },
         {
@@ -2251,7 +2251,8 @@
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
-                "printSource": "PFRPG Core"
+                "printSource": "PFRPG Core",
+                "number": 5
             }
         },
         {
@@ -5260,7 +5261,8 @@
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
-                "printSource": "Advanced Player's Guide"
+                "printSource": "Advanced Player's Guide",
+                "number": 6
             }
         },
         {
@@ -28281,7 +28283,8 @@
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
-                "printSource": "Advanced Class Guide"
+                "printSource": "Advanced Class Guide",
+                "number": 3
             }
         },
         {
@@ -40202,7 +40205,8 @@
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
-                "printSource": "Ultimate Intrigue"
+                "printSource": "Ultimate Intrigue",
+                "number": 4
             }
         },
         {
