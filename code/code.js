@@ -3,6 +3,20 @@ String.prototype.toCamelCase = function toCamelCase() {
   return this.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
 };
 
+String.prototype.replaceUmlauts = function replaceUmlauts() {
+  const umlautMap = {
+    'Ä': 'AE',
+    'ä': 'ae',
+    'Ö': 'OE',
+    'ö': 'oe',
+    'Ü': 'UE',
+    'ü': 'ue',
+    'ß': 'ss',
+    'ẞ': 'SS'
+  };
+  return this.split('').map(char => umlautMap[char] || char).join('');
+};
+
 // Global variables
 let cy; // Cytoscape instance
 let searchAutocomplete = null; // autoComplete instance
@@ -114,10 +128,19 @@ function removeSplashScreen() {
  */
 function searchFeats(featName) {
   removeSplashScreen();
-  const feat = cy.getElementById(featName.toCamelCase()); // Convert feat name to camelCase
-  const featTree = feat.predecessors().union(feat.successors()).union(feat); // Get all related nodes
-  cy.nodes().removeClass('visible'); // Hide all nodes
-  featTree.nodes().addClass('visible'); // Show only related nodes
+  // Convert to camelCase and log
+  const camelCaseName = featName.replaceUmlauts().toCamelCase();
+  // Search for the element
+  const feat = cy.getElementById(camelCaseName);
+  if (feat.length === 0) {
+    console.error(`No element found with ID: ${camelCaseName}`);
+    return;
+  }
+
+  const featTree = feat.predecessors().union(feat.successors()).union(feat);
+  cy.nodes().removeClass('visible');
+  featTree.nodes().addClass('visible');
+  
   const dagre = {
     name: 'dagre',
     rankDir: 'LR',
@@ -125,7 +148,7 @@ function searchFeats(featName) {
     rankSep: 150,
     nodeDimensionsIncludeLabels: true,
   };
-  featTree.layout(dagre).run(); // Re-layout the graph
+  featTree.layout(dagre).run();
 }
 
 /**
@@ -164,6 +187,7 @@ function displayFeat(featNode) {
   setFeatSection(featData.goal, 'goal');
   setFeatSection(featData.completionBenefit, 'completion');
   setFeatSection(featData.note, 'note');
+  setFeatSection(featData.printSource, 'printSource');
   setFeatSection(featData.prdLink, 'prdLink');
   document.getElementById('feat-info').classList.remove('d-none');
   featNode.neighborhood('edge').select(); // Highlight related edges

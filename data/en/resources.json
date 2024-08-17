@@ -12,5 +12,6 @@
     "goal": "Goal",
     "completionBenefit": "Completion Benefit",
     "note": "Note",
-    "prdLink": "PRD Link"
+    "prdLink": "PRD Link",
+    "printSource": "Print Source"
 }
