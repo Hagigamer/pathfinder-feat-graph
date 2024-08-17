@@ -53,6 +53,7 @@ async function fetchTranslations(newLocale)
 function translatePage()
 {
     document.querySelectorAll("[resource]").forEach(translateElement);
+    translatePlaceholders(); // Handle placeholders
 }
 
 // Retrieves the translation for a single element.
@@ -88,3 +89,16 @@ function getResourceByKey(key)
 {
     return translations[key];
 }
+
+// Call this function to translate placeholders
+function translatePlaceholders() {
+    document.querySelectorAll("[resource]").forEach(element => {
+      const key = element.getAttribute("resource");
+      const translation = getResourceByKey(key);
+      if (element.tagName === "INPUT" && element.hasAttribute("placeholder")) {
+        element.setAttribute("placeholder", translation);
+      } else {
+        element.innerText = translation;
+      }
+    });
+  }

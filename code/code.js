@@ -46,9 +46,11 @@ async function initializeCy(locale) {
 
 // Re-bind the search functionality when the graph is reloaded
 function bindSearch(locale) {
+  const placeholderText = translations["searchPlaceholder"] || "Search..."; // Fallback if no translation is found
+
   const search = new autoComplete({
     selector: "#search",
-    placeHolder: "Search...", // Placeholder text can also be localized if needed
+    placeHolder: placeholderText, // Use localized placeholder text
     data: {
       src: fetch(`data/${locale}/talents.json`).then(res => res.json()).then(graphData => graphData.nodes.map(node => node.data.name))
     },
