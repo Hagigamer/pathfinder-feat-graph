@@ -2,5 +2,15 @@
     "start": "Starte mit einer Suche!",
     "header": "Pathfinder Talentegrafik",
     "logGraphLoaded": "Grafik geladen!",
-    "searchPlaceholder": "Suchen..."
+    "searchPlaceholder": "Suchen...",
+    "categories": "Kategorien",
+    "description": "Beschreibung",
+    "prerequisites": "Voraussetzungen",
+    "benefit": "Vorteil",
+    "normal": "Normal",
+    "special": "Speziell",
+    "goal": "Ziel",
+    "completionBenefit": "Completion Benefit",
+    "note": "Hinweis",
+    "prdLink": "PRD Link"
 }

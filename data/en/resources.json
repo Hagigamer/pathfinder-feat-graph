@@ -2,5 +2,15 @@
     "start": "Start by Searching!",
     "header": "Pathfinder Feats Web",
     "logGraphLoaded": "Graph loaded!",
-    "searchPlaceholder": "Search..."
+    "searchPlaceholder": "Search...",
+    "categories": "Categories",
+    "description": "Description",
+    "prerequisites": "Prerequisites",
+    "benefit": "Benefit",
+    "normal": "Normal",
+    "special": "Special",
+    "goal": "Goal",
+    "completionBenefit": "Completion Benefit",
+    "note": "Note",
+    "prdLink": "PRD Link"
 }
