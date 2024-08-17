@@ -1,22 +1,23 @@
-String.prototype.toCamelCase = function toCamelCase() {
+String.prototype.toCamelCase = function toCamelCase() 
+{
   return this.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
 };
 
-// Define the Cytoscape instance outside of the initial setup
+// Define the Cytoscape instance and autoComplete instance outside of the initial setup
 let cy;
+let searchAutocomplete = null; // Reference to the autoComplete instance
 
 // Function to initialize Cytoscape
-async function initializeCy(locale) {
+async function initializeCy(locale) 
+{
   console.log("Initializing Cytoscape for locale:", locale);
-
-  if (cy) {
+  if (cy) 
+  {
     cy.destroy(); // Clean up the old instance
     cy = null; // Ensure cy is set to null to prevent issues
   }
-
   const elements = await fetch(`data/${locale}/talents.json`).then(res => res.json());
   const style = await fetch('style/cy-style.json').then(res => res.json());
-
   cy = cytoscape({
     container: document.getElementById('cy'),
     elements: elements,
@@ -45,16 +46,34 @@ async function initializeCy(locale) {
 }
 
 // Re-bind the search functionality when the graph is reloaded
-function bindSearch(locale) {
-  const placeholderText = translations["searchPlaceholder"] || "Search..."; // Fallback if no translation is found
+async function bindSearch(locale) 
+{
+  // Clear previous autocomplete instance if it exists
+  if (searchAutocomplete) 
+    {
+    searchAutocomplete.input.value = ''; // Clear current input value
+    searchAutocomplete.list.remove(); // Remove the current suggestion list if present
+    searchAutocomplete = null; // Dereference previous instance
+  }
+  const placeholderText = translations["searchPlaceholder"] || "Search..."; // Fallback placeholder text
+  // Fetch new data for the selected locale
+  const fetchData = async () => 
+    {
+    const response = await fetch(`data/${locale}/talents.json`);
+    const graphData = await response.json();
+    return graphData.nodes.map(node => node.data.name);
+  };
 
-  const search = new autoComplete({
+  // Create a new autoComplete instance
+  searchAutocomplete = new autoComplete({
     selector: "#search",
     placeHolder: placeholderText, // Use localized placeholder text
-    data: {
-      src: fetch(`data/${locale}/talents.json`).then(res => res.json()).then(graphData => graphData.nodes.map(node => node.data.name))
+    data: 
+    {
+      src: await fetchData(), // Use fetched data
     },
-    resultItem: {
+    resultItem: 
+    {
       highlight: true,
     },
     submit: false,
@@ -62,7 +81,7 @@ function bindSearch(locale) {
       input: {
         selection: (event) => {
           const selection = event.detail.selection.value;
-          search.input.value = selection;
+          searchAutocomplete.input.value = selection;
           searchFeats(selection);
         }
       }
