@@ -6,12 +6,6 @@ const cy = cytoscape({
   container: document.getElementById('cy'), // container to render in
 });
 
-function prerequisiteId(prerequisite) {
-  return prerequisite.trim()
-    .replace(/ *\([^)]*\) */g, "") //removes paren content //camel case
-    .toCamelCase();
-}
-
 function findSupplements(feats) {
   const supplements = new Set();
   feats.map(feat => feat.fulltext).forEach(html => {
@@ -23,7 +17,29 @@ function findSupplements(feats) {
   console.log(supplements);
 }
 
+function idFromPrerequisiteFeat(prerequisite) {
+  return prerequisite
+    .replace(/ *\([^)]*\) */g, '') // removes paren content
+    .trim()
+    .toCamelCase();
+}
+
+function idFromPrerequisiteSkill(prerequisite) {
+  return prerequisite
+    .replace(/ *\([^)]*\) */g, '')
+    .replace(/\d+/g, '') // removes numbers
+    .trim()
+    .toCamelCase();
+}
+
 function processRawFeat(feat) {
+  feat.id = feat.name.toCamelCase();
+  feat.prerequisite_feats = feat.prerequisite_feats.split(/(?:,|\|)+/).map(prereq => idFromPrerequisiteFeat(prereq)).filter(prereq => prereq);
+  feat.prerequisite_skills = feat.prerequisite_skills.split(/(?:,|\|)+/).map(prereq => idFromPrerequisiteSkill(prereq)).filter(prereq => prereq);
+  return feat;
+}
+
+function generateFeatNode(feat) {
   const categories = [];
   const featType = feat.type.toLowerCase();
   if (featType != "general") {
@@ -70,7 +86,7 @@ function processRawFeat(feat) {
   }
   if (feat.shield_mastery) {
     categories.push("Shield Mastery");
-  } 
+  }
   if (feat.blood_hex) {
     categories.push("Blood Hex");
   }
@@ -82,11 +98,11 @@ function processRawFeat(feat) {
   }
 
   return {
-    id: feat.name.toCamelCase(),
+    id: feat.id,
     name: feat.name,
+    type: "feat",
     categories: categories,
     prerequisites: feat.prerequisites,
-    prerequisiteFeats: feat.prerequisite_feats.split(/(?:,|\|)+/).map(prereq => prerequisiteId(prereq)).filter(prereq => prereq),
     description: feat.description,
     benefit: feat.benefit,
     normal: feat.normal,
@@ -98,18 +114,29 @@ function processRawFeat(feat) {
   };
 }
 
-async function initializeGraph() {
-  const feats = await fetch('data/Feats-19Jan2020.json').then(res => res.json());
-  // findSupplements(feats);
-  const nodes = feats.filter(feat => feat.type.toLowerCase() != "mythic")
-    .map(feat => processRawFeat(feat));
-  const links = nodes.flatMap(feat => (feat.prerequisiteFeats.map(prereq => ({ id: feat.id + '|' + prereq, source: prereq, target: feat.id }))));
+function generateSkillNode(skill) {
+  skill.type = "skill";
+  return skill;
+}
 
-  const duplicates = Map.groupBy(nodes, ({ id }) => id).entries().toArray().filter(entry => entry[1].length > 1);
-  console.log("Duplicates", duplicates);
+async function initializeGraph() {
+  const rawFeats = await fetch('data/Feats-19Jan2020.json').then(res => res.json());
+  const rawSkills = await fetch('data/Skills-17Mar2024.json').then(res => res.json());
+  // findSupplements(feats);
+  const feats = rawFeats.filter(feat => feat.type.toLowerCase() != "mythic").map(feat => processRawFeat(feat));
+  const featNodes = feats.map(feat => generateFeatNode(feat));
+  const skillNodes = rawSkills.map(skill => generateSkillNode(skill));
+  const featLinks = feats.flatMap(feat => (feat.prerequisite_feats.map(prereq => ({ id: feat.id + '|' + prereq, source: prereq, target: feat.id }))));
+  const skillLinks = feats.flatMap(feat => (feat.prerequisite_skills.map(prereq => ({ id: feat.id + '|' + prereq, source: prereq, target: feat.id }))));
+
+  // check for duplicate feats
+  // const duplicates = Map.groupBy(feats, ({ id }) => id).entries().toArray().filter(entry => entry[1].length > 1);
+  // console.log("Duplicates", duplicates);
   cy.add({ group: 'nodes', data: { id: "weaponProficiency", name: "Weapon Proficiency" } });
-  cy.add(nodes.map(node => ({ group: 'nodes', data: node })));
-  cy.add(links.map(link => ({ group: 'edges', data: link })));
+  cy.add(featNodes.map(node => ({ group: 'nodes', data: node })));
+  cy.add(skillNodes.map(node => ({ group: 'nodes', data: node })));
+  cy.add(featLinks.map(link => ({ group: 'edges', data: link })));
+  cy.add(skillLinks.map(link => ({ group: 'edges', data: link })));
 }
 
 function pruneNode(node) {

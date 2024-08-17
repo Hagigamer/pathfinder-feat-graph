@@ -1,0 +1,210 @@
+[
+    {
+        "id": "acrobatics",
+        "name": "Acrobatics",
+        "description": "You can keep your balance while traversing narrow or treacherous surfaces. You can also dive, flip, jump, and roll to avoid attacks and overcome obstacles.",
+        "ability": "Dexterity",
+        "armorCheckPenalty": true,
+        "reqiresTraining": false
+    },
+    {
+        "id": "appraise",
+        "name": "Appraise",
+        "description": "You can evaluate the monetary value of an object.",
+        "ability": "Intelligence",
+        "armorCheckPenalty": false,
+        "reqiresTraining": false
+    },
+    {
+        "id": "bluff",
+        "name": "Bluff",
+        "description": "You know how to tell a lie.",
+        "ability": "Charisma",
+        "armorCheckPenalty": false,
+        "reqiresTraining": false
+    },
+    {
+        "id": "climb",
+        "name": "Climb",
+        "description": "You are skilled at scaling vertical surfaces, from smooth city walls to rocky cliffs.",
+        "ability": "Strength",
+        "armorCheckPenalty": true,
+        "reqiresTraining": false
+    },
+    {
+        "id": "craft",
+        "name": "Craft",
+        "description": "You are skilled in the creation of a specific group of items, such as armor or weapons. A Craft skill is specifically focused on creating something. If nothing is created by the endeavor, it probably falls under the heading of a Profession skill.",
+        "ability": "Intelligence",
+        "armorCheckPenalty": false,
+        "reqiresTraining": false
+    },
+    {
+        "id": "diplomacy",
+        "name": "Diplomacy",
+        "description": "You can use this skill to persuade others to agree with your arguments, to resolve differences, and to gather valuable information or rumors from people. This skill is also used to negotiate conflicts by using the proper etiquette and manners suitable to the problem.",
+        "ability": "Charisma",
+        "armorCheckPenalty": false,
+        "reqiresTraining": false
+    },
+    {
+        "id": "disableDevice",
+        "name": "Disable Device",
+        "description": "You are skilled at disarming traps and opening locks. In addition, this skill lets you sabotage simple mechanical devices, such as catapults, wagon wheels, and doors.",
+        "ability": "Dexterity",
+        "armorCheckPenalty": true,
+        "reqiresTraining": true
+    },
+    {
+        "id": "disguise",
+        "name": "Disguise",
+        "description": "You are skilled at changing your appearance.",
+        "ability": "Charisma",
+        "armorCheckPenalty": false,
+        "reqiresTraining": false
+    },
+    {
+        "id": "escapeArtist",
+        "name": "Escape Artist",
+        "description": "Your training allows you to slip out of bonds and escape from grapples.",
+        "ability": "Dexterity",
+        "armorCheckPenalty": true,
+        "reqiresTraining": false
+    },
+    {
+        "id": "fly",
+        "name": "Fly",
+        "description": "You are skilled at flying, through either the use of wings or magic, and can perform daring or complex maneuvers while airborne. Note that this skill does not give you the ability to fly.",
+        "ability": "Dexterity",
+        "armorCheckPenalty": true,
+        "reqiresTraining": false
+    },
+    {
+        "id": "handleAnimal",
+        "name": "Handle Animal",
+        "description": "You are trained at working with animals, and can teach them tricks, get them to follow your simple commands, or even domesticate them.",
+        "ability": "Charisma",
+        "armorCheckPenalty": false,
+        "reqiresTraining": true
+    },
+    {
+        "id": "heal",
+        "name": "Heal",
+        "description": "You are skilled at tending to wounds and ailments.",
+        "ability": "Wisdom",
+        "armorCheckPenalty": false,
+        "reqiresTraining": false
+    },
+    {
+        "id": "intimidate",
+        "name": "Intimidate",
+        "description": "You can use this skill to frighten an opponent or to get them to act in a way that benefits you. This skill includes verbal threats and displays of prowess.",
+        "ability": "Charisma",
+        "armorCheckPenalty": false,
+        "reqiresTraining": false
+    },
+    {
+        "id": "knowledge",
+        "name": "Knowledge",
+        "description": "You are educated in a field of study and can answer both simple and complex questions.",
+        "ability": "Intelligence",
+        "armorCheckPenalty": false,
+        "reqiresTraining": true
+    },
+    {
+        "id": "linguistics",
+        "name": "Linguistics",
+        "description": "You are skilled at working with language, in both its spoken and written forms. You can speak multiple languages, and can decipher nearly any tongue given enough time. Your skill in writing allows you to create and detect forgeries as well.",
+        "ability": "Intelligence",
+        "armorCheckPenalty": false,
+        "reqiresTraining": true
+    },
+    {
+        "id": "perception",
+        "name": "Perception",
+        "description": "Your senses allow you to notice fine details and alert you to danger. Perception covers all five senses, including sight, hearing, touch, taste, and smell.",
+        "ability": "Wisdom",
+        "armorCheckPenalty": false,
+        "reqiresTraining": false
+    },
+    {
+        "id": "perform",
+        "name": "Perform",
+        "description": "You are skilled at one form of entertainment, from singing to acting to playing an instrument.",
+        "ability": "Charisma",
+        "armorCheckPenalty": false,
+        "reqiresTraining": false
+    },
+    {
+        "id": "profession",
+        "name": "Profession",
+        "description": "You are skilled at a specific job. While a Craft skill represents ability in creating an item, a Profession skill represents an aptitude in a vocation requiring a broader range of less specific knowledge.",
+        "ability": "Wisdom",
+        "armorCheckPenalty": false,
+        "reqiresTraining": true
+    },
+    {
+        "id": "ride",
+        "name": "Ride",
+        "description": "You are skilled at riding mounts, usually a horse, but possibly something more exotic, like a griffon or pegasus.",
+        "ability": "Dexterity",
+        "armorCheckPenalty": true,
+        "reqiresTraining": false
+    },
+    {
+        "id": "senseMotive",
+        "name": "Sense Motive",
+        "description": "You are skilled at detecting falsehoods and true intentions.",
+        "ability": "Wisdom",
+        "armorCheckPenalty": false,
+        "reqiresTraining": false
+    },
+    {
+        "id": "sleightOfHand",
+        "name": "Sleight of Hand",
+        "description": "Your training allows you to pick pockets, draw hidden weapons, and take a variety of actions without being noticed.",
+        "ability": "Dexterity",
+        "armorCheckPenalty": true,
+        "reqiresTraining": true
+    },
+    {
+        "id": "spellcraft",
+        "name": "Spellcraft",
+        "description": "You are skilled at the art of casting spells, identifying magic items, crafting magic items, and identifying spells as they are being cast.",
+        "ability": "Intelligence",
+        "armorCheckPenalty": false,
+        "reqiresTraining": true
+    },
+    {
+        "id": "stealth",
+        "name": "Stealth",
+        "description": "You are skilled at avoiding detection, allowing you to slip past foes or strike from an unseen position. This skill covers hiding and moving silently.",
+        "ability": "Dexterity",
+        "armorCheckPenalty": true,
+        "reqiresTraining": false
+    },
+    {
+        "id": "survival",
+        "name": "Survival",
+        "description": "You are skilled at surviving in the wild and at navigating in the wilderness. You also excel at following trails and tracks left by others.",
+        "ability": "Wisdom",
+        "armorCheckPenalty": false,
+        "reqiresTraining": false
+    },
+    {
+        "id": "swim",
+        "name": "Swim",
+        "description": "You know how to swim and can do so even in stormy water.",
+        "ability": "Strength",
+        "armorCheckPenalty": true,
+        "reqiresTraining": false
+    },
+    {
+        "id": "useMagicDevice",
+        "name": "Use Magic Device",
+        "description": "You are skilled at activating magic items, even if you are not otherwise trained in their use.",
+        "ability": "Charisma",
+        "armorCheckPenalty": false,
+        "reqiresTraining": true
+    }
+]

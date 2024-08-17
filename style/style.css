@@ -5,3 +5,7 @@
 .feat-subheading {
   font-weight: bold;
 }
+
+#cy {
+  z-index: 0;
+}
