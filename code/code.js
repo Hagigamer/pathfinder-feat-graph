@@ -138,6 +138,10 @@ function setFeatSection(displayText, section) {
   const htmlText = document.getElementById(`feat-${section}`);
   if (displayText) {
     htmlText.textContent = displayText;
+    if (section === 'prdLink') {
+      htmlText.href = displayText;
+      htmlText.style.display = 'block';
+    }
     htmlSection.hidden = false;
   } else {
     htmlSection.hidden = true;
@@ -160,6 +164,7 @@ function displayFeat(featNode) {
   setFeatSection(featData.goal, 'goal');
   setFeatSection(featData.completionBenefit, 'completion');
   setFeatSection(featData.note, 'note');
+  setFeatSection(featData.prdLink, 'prdLink');
   document.getElementById('feat-info').classList.remove('d-none');
   featNode.neighborhood('edge').select(); // Highlight related edges
 }
