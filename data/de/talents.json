@@ -24,7 +24,7 @@
                 "note": "",
                 "printSource": "GRW - Seite 118",
                 "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/Akrobat",
-                "number": 1
+                "number": 1277
             }
         },
         {
@@ -36,7 +36,7 @@
                     "Allgemein"
                 ],
                 "prerequisites": "GE 15, Behände Bewegung.",
-                "description": "You can easily move over and through obstacles.",
+                "description": "Du bewegst dich mit Leichtigkeit über und durch Hindernisse.",
                 "benefit": "Wann immer du dich bewegst, kannst du dich pro Runde durch bis zu 4,50 m schwieriges Gelände bewegen, als ob es normales Gelände wäre. Die Wirkung dieses Talents ist kumulativ mit der des Talents Behände Bewegung (und erlaubt dir pro Runde die normale Bewegung durch bis zu 6m schwierigen Geländes).",
                 "normal": "",
                 "special": "",
@@ -45,332 +45,366 @@
                 "note": "",
                 "printSource": "GRW - Seite 122",
                 "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/GeschmeidigeBewegung",
-                "number": 2
+                "number": 1313
             }
         },
         {
             "data": {
-                "id": "agileManeuvers",
-                "name": "Agile Maneuvers",
+                "id": "flinkeManoever",
+                "name": "Flinke Manöver",
                 "type": "feat",
                 "categories": [
                     "Kampf"
                 ],
                 "prerequisites": "",
-                "description": "You've learned to use your quickness in place of brute force when performing combat maneuvers.",
-                "benefit": "You add your Dexterity bonus to your base attack bonus and size bonus when determining your Combat Maneuver Bonus (see Chapter 8) instead of your Strength bonus.",
-                "normal": "You add your Strength bonus to your base attack bonus and size bonus when determining your Combat Maneuver Bonus.",
+                "description": "Du führst deine Kampfmanöver mit Schnelligkeit anstatt brutaler Gewalt aus.",
+                "benefit": "Anstelle deines Stärkebonus darfst du deinen Geschicklichkeitsbonus auf deinen Angriffs- und Größenbonus addieren, wenn du deinen Bonus für Kampfmanöver berechnest (Siehe Kapitel Kampf).",
+                "normal": "Du addierst deinen Stärkebonus auf deinen Angriffs- und Größenbonus, wenn du deinen Bonus für Kampfmanöver berechnest.",
                 "special": "",
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
-                "printSource": "PFRPG Core"
+                "printSource": "GRW - Seite 122",
+                "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/FlinkeManoever",
+                "number": 1309
             }
         },
         {
             "data": {
-                "id": "alertness",
-                "name": "Alertness",
+                "id": "wachsamkeit",
+                "name": "Wachsamkeit",
                 "type": "feat",
                 "categories": [
                     "Allgemein"
                 ],
                 "prerequisites": "",
-                "description": "You often notice things that others might miss.",
-                "benefit": "You get a +2 bonus on Perception and Sense Motive skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.",
+                "description": "Mit deinen scharfen Sinnen nimmst du Dinge wahr, die anderen Personen verborgen bleiben.",
+                "benefit": "Du erhältst einen Bonus von +2 auf Fertigkeitswürfe für Wahrnehmung und Motiv erkennen. Besitzt du in einer dieser Fertigkeiten mindestens 10 Ränge, erhöht sich der Bonus für die jeweilige Fertigkeit auf +4.",
                 "normal": "",
                 "special": "",
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
-                "printSource": "PFRPG Core"
+                "printSource": "GRW - Seite 135",
+                "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/Wachsamkeit",
+                "number": 1453
             }
         },
         {
             "data": {
-                "id": "alignmentChannel",
-                "name": "Alignment Channel",
+                "id": "gesinnungFokussieren",
+                "name": "Gesinnung fokussieren",
                 "type": "feat",
                 "categories": [
                     "Allgemein"
                 ],
-                "prerequisites": "Ability to channel energy.",
-                "description": "Choose chaos, evil, good, or law. You can channel divine energy to affect outsiders that possess this subtype.",
-                "benefit": "Instead of its normal effect, you can choose to have your ability to channel energy heal or harm outsiders of the chosen alignment subtype. You must make this choice each time you channel energy. If you choose to heal or harm creatures of the chosen alignment subtype, your channel energy has no effect on other creatures. The amount of damage healed or dealt and the DC to halve the damage is otherwise unchanged.",
+                "prerequisites": "Fähigkeit, Energie zu fokussieren",
+                "description": "Wähle die Gesinnung „Chaotisch“, „Böse“, „Gut“ oder „Rechtschaffen“. Du kannst göttliche Energie fokussieren, um auf Externare einzuwirken, die der gewählten Gesinnungs-Unterart angehören.",
+                "benefit": "Anstelle der normalen Wirkungsweise kannst du entscheiden, dass deine Fähigkeit, Energie zu fokussieren, Externare der ausgewählten Gesinnungs-Unterart heilt oder ihnen Schaden zufügt. Du musst diese Wahl jedes Mal treffen, wenn du Energie fokussierst. Wenn du dich entscheidest, Wesen der ausgewählten Gesinnungs-Unterart zu heilen oder ihnen Schaden zuzufügen, so hat deine Fähigkeit, Energie zu fokussieren, keinerlei Auswirkungen auf andere Wesen. Die Höhe des geheilten oder verursachten Schadens sowie der SG zur Halbierung des Schadens bleiben ansonsten unverändert.",
                 "normal": "",
-                "special": "You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, it applies to a new alignment subtype. Whenever you channel energy, you must choose which type to effect.",
+                "special": "Du kannst dieses Talent mehrfach erwerben. Seine Wirkung ist allerdings nicht kumulativ. Jedes weitere Mal, wenn du dieses Talent erwirbst, bezieht es sich auf eine andere Gesinnungs-Subart. Wenn du fortan Energie fokussierst, musst du entscheiden, welche Gesinnungs-Unterart betroffen ist.",
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
-                "printSource": "PFRPG Core"
+                "printSource": "GRW - Seite 122",
+                "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/Gesinnungfokussieren",
+                "number": 1316
             }
         },
         {
             "data": {
-                "id": "animalAffinity",
-                "name": "Animal Affinity",
-                "type": "feat",
-                "categories": [
-                    "Allgemein"
-                ],
-                "prerequisites": "",
-                "description": "You are skilled at working with animals and mounts.",
-                "benefit": "You get a +2 bonus on all Handle Animal and Ride skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.",
-                "normal": "",
-                "special": "",
-                "goal": "",
-                "completionBenefit": "",
-                "note": "",
-                "printSource": "PFRPG Core"
-            }
-        },
-        {
-            "data": {
-                "id": "arcaneArmorMastery",
-                "name": "Arcane Armor Mastery",
-                "type": "feat",
-                "categories": [
-                    "Kampf"
-                ],
-                "prerequisites": "Arcane Armor Training, Medium Armor Proficiency, caster level 7th.",
-                "description": "You have mastered the ability to cast spells while wearing armor.",
-                "benefit": "As a swift action, reduce the arcane spell failure chance due to the armor you are wearing by 20% for any spells you cast this round. This bonus replaces, and does not stack with, the bonus granted by Arcane Armor Training.",
-                "normal": "",
-                "special": "",
-                "goal": "",
-                "completionBenefit": "",
-                "note": "",
-                "printSource": "PFRPG Core"
-            }
-        },
-        {
-            "data": {
-                "id": "arcaneArmorTraining",
-                "name": "Arcane Armor Training",
-                "type": "feat",
-                "categories": [
-                    "Kampf"
-                ],
-                "prerequisites": "Light Armor Proficiency, caster level 3rd.",
-                "description": "You have learned how to cast spells while wearing armor.",
-                "benefit": "As a swift action, reduce the arcane spell failure chance due to the armor you are wearing by 10% for any spells you cast this round.",
-                "normal": "",
-                "special": "",
-                "goal": "",
-                "completionBenefit": "",
-                "note": "",
-                "printSource": "PFRPG Core"
-            }
-        },
-        {
-            "data": {
-                "id": "arcaneStrike",
-                "name": "Arcane Strike",
-                "type": "feat",
-                "categories": [
-                    "Kampf"
-                ],
-                "prerequisites": "Ability to cast arcane spells.",
-                "description": "You draw upon your arcane power to enhance your weapons with magical energy.",
-                "benefit": "As a swift action, you can imbue your weapons with a fraction of your power. For 1 round, your weapons deal +1 damage and are treated as magic for the purpose of overcoming damage reduction. For every five caster levels you possess, this bonus increases by +1, to a maximum of +5 at 20th level.",
-                "normal": "",
-                "special": "",
-                "goal": "",
-                "completionBenefit": "",
-                "note": "",
-                "printSource": "PFRPG Core"
-            }
-        },
-        {
-            "data": {
-                "id": "heavyArmorProficiency",
-                "name": "Heavy Armor Proficiency",
-                "type": "feat",
-                "categories": [
-                    "Kampf"
-                ],
-                "prerequisites": "Light Armor Proficiency, Medium Armor Proficiency.",
-                "description": "You are skilled at wearing heavy armor.",
-                "benefit": "See Armor Proficiency, Light.",
-                "normal": "See Armor Proficiency, Light.",
-                "special": "Fighters and paladins automatically have Heavy Armor Proficiency as a bonus feat. They need not select it.",
-                "goal": "",
-                "completionBenefit": "",
-                "note": "",
-                "printSource": "PFRPG Core"
-            }
-        },
-        {
-            "data": {
-                "id": "lightArmorProficiency",
-                "name": "Light Armor Proficiency",
-                "type": "feat",
-                "categories": [
-                    "Kampf"
-                ],
-                "prerequisites": "",
-                "description": "You are skilled at wearing light armor.",
-                "benefit": "When you wear a type of armor with which you are proficient, the armor check penalty for that armor applies only to Dexterity- and Strength-based skill checks.",
-                "normal": "A character who is wearing armor with which he is not proficient applies its armor check penalty to attack rolls and to all skill checks that involve moving.",
-                "special": "All characters except monks, sorcerers, and wizards automatically have Light Armor Proficiency as a bonus feat. They need not select it.",
-                "goal": "",
-                "completionBenefit": "",
-                "note": "",
-                "printSource": "PFRPG Core"
-            }
-        },
-        {
-            "data": {
-                "id": "mediumArmorProficiency",
-                "name": "Medium Armor Proficiency",
-                "type": "feat",
-                "categories": [
-                    "Kampf"
-                ],
-                "prerequisites": "Light Armor Proficiency.",
-                "description": "You are skilled at wearing medium armor.",
-                "benefit": "See Armor Proficiency, Light.",
-                "normal": "See Armor Proficiency, Light.",
-                "special": "Barbarians, clerics, druids, fighters, paladins, and rangers automatically have Medium Armor Proficiency as a bonus feat. They need not select it.",
-                "goal": "",
-                "completionBenefit": "",
-                "note": "",
-                "printSource": "PFRPG Core"
-            }
-        },
-        {
-            "data": {
-                "id": "athletic",
-                "name": "Athletic",
+                "id": "verbundenheitMitTieren",
+                "name": "Verbundenheit mit Tieren",
                 "type": "feat",
                 "categories": [
                     "Allgemein"
                 ],
                 "prerequisites": "",
-                "description": "You possess inherent physical prowess.",
-                "benefit": "You get a +2 bonus on Climb and Swim skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.",
+                "description": "Du bist darin ausgebildet, mit Reit- und anderen Tieren zu arbeiten.",
+                "benefit": "Du erhältst einen Bonus +2 auf alle Fertigkeitswürfe für Mit Tieren umgehen und Reiten. Besitzt du mindestens 10 Ränge in einer dieser Fertigkeiten, erhöht sich der Bonus für die jeweilige Fertigkeit auf +4.",
                 "normal": "",
                 "special": "",
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
-                "printSource": "PFRPG Core"
+                "printSource": "GRW - Seite 134",
+                "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/VerbundenheitmitTieren",
+                "number": 1424
             }
         },
         {
             "data": {
-                "id": "augmentSummoning",
-                "name": "Augment Summoning",
+                "id": "arkaneRuestungsmeisterschaft",
+                "name": "Arkane Rüstungsmeisterschaft",
+                "type": "feat",
+                "categories": [
+                    "Kampf"
+                ],
+                "prerequisites": "Arkanes Rüstungstraining, Umgang mit Rüstungen (mittelschwere), Zauberstufe 7",
+                "description": "Du hast die Fähigkeit gemeistert, in Rüstung Zauber zu wirken.",
+                "benefit": "Mit einer Schnellen Aktion verringerst du das Risiko, aufgrund der von dir getragenen Rüstungen einen arkanen Zauberpatzer zu begehen, um 20 % für alle Zauber, die du in derselben Runde wirkst. Dieser Bonus ersetzt (ist also nicht kumulativ) den Bonus, den dir das Talent Arkanes Rüstungstraining gewährt.",
+                "normal": "",
+                "special": "",
+                "goal": "",
+                "completionBenefit": "",
+                "note": "",
+                "printSource": "GRW - Seite 119",
+                "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/ArkaneRuestungsmeisterschaft",
+                "number": 1280
+            }
+        },
+        {
+            "data": {
+                "id": "arkanesRuestungstraining",
+                "name": "Arkanes Rüstungstraining",
+                "type": "feat",
+                "categories": [
+                    "Kampf"
+                ],
+                "prerequisites": "Umgang mit Rüstungen (leichte), Zauberstufe 3",
+                "description": "Du hast gelernt, in Rüstung Zauber zu wirken.",
+                "benefit": "Mit einer Schnellen Aktion reduzierst du das Risiko, aufgrund der von dir getragenen Rüstungen einen arkanen Zauberpatzer zu begehen, um 10 % für alle Zauber, die du in derselben Runde wirkst.",
+                "normal": "",
+                "special": "",
+                "goal": "",
+                "completionBenefit": "",
+                "note": "",
+                "printSource": "GRW - Seite 119",
+                "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/ArkanesRuestungstraining",
+                "number": 1279
+            }
+        },
+        {
+            "data": {
+                "id": "arkanerSchlag",
+                "name": "Arkaner Schlag",
+                "type": "feat",
+                "categories": [
+                    "Kampf"
+                ],
+                "prerequisites": "Fähigkeit, arkane Zauber zu wirken",
+                "description": "Du nutzt deine arkane Macht, um deine Waffen mit magischer Energie anzureichern.",
+                "benefit": "Mit einer Schnellen Aktion kannst du deinen Waffen einen Bruchteil deiner magischen Macht einflößen. Eine Runde lang erhöht sich der Schaden deiner Waffen um +1. Außerdem werden deine Waffen in Bezug auf die Überwindung von Schadensreduzierung als magisch behandelt. Der Bonus steigt für je fünf Zauberstufen um +1 bis auf ein Maximum von +5 auf der 20. Stufe.",
+                "normal": "",
+                "special": "",
+                "goal": "",
+                "completionBenefit": "",
+                "note": "",
+                "printSource": "GRW - Seite 119",
+                "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/ArkanerSchlag",
+                "number": 1278
+            }
+        },
+        {
+            "data": {
+                "id": "umgangMitRuestungenSchwere",
+                "name": "Umgang mit Rüstungen (schwere)",
+                "type": "feat",
+                "categories": [
+                    "Kampf"
+                ],
+                "prerequisites": "Umgang mit Rüstungen (leichte), Umgang mit Rüstungen (mittelschwere)",
+                "description": "Du bist darin geübt, schwere Rüstungen zu tragen.",
+                "benefit": "Wenn du eine Rüstung der Art trägst, mit der du vertraut bist, gilt der Rüstungsmalus nur für stärke- und geschicklichkeitsbasierte Fertigkeitswürfe.",
+                "normal": "Ein Charakter, der eine Rüstung trägt, mit deren Umgang er nicht vertraut ist, muss seinen Rüstungsmalus auf seine Angriffswürfe und alle Fertigkeitswürfe, die eine Bewegung beinhalten addieren.",
+                "special": "Kämpfer und Paladine haben das Talent Umgang mit Rüstungen (schwere) automatisch als Bonustalent und brauchen es daher nicht auszuwählen.",
+                "goal": "",
+                "completionBenefit": "",
+                "note": "",
+                "printSource": "GRW - Seite 131",
+                "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/UmgangmitRuestungenschwere",
+                "number": 1397
+            }
+        },
+        {
+            "data": {
+                "id": "umgangMitRuestungenLeichte",
+                "name": "Umgang mit Rüstungen (leichte)",
+                "type": "feat",
+                "categories": [
+                    "Kampf"
+                ],
+                "prerequisites": "",
+                "description": "Du bist darin geübt, leichte Rüstungen zu tragen.",
+                "benefit": "Wenn du eine Rüstung der Art trägst, mit der du vertraut bist, gilt der Rüstungsmalus nur für stärke- und geschicklichkeitsbasierte Fertigkeitswürfe.",
+                "normal": "Ein Charakter, der eine Rüstung trägt, mit deren Umgang er nicht vertraut ist, muss seinen Rüstungsmalus auf seine Angriffswürfe und alle Fertigkeitswürfe, die eine Bewegung beinhalten addieren.",
+                "special": "Außer Hexenmeistern, Magiern und Mönchen haben alle Charaktere automatisch das Talent Umgang mit Rüstungen (leichte) als Bonustalent. Sie brauchen es nicht auszuwählen.",
+                "goal": "",
+                "completionBenefit": "",
+                "note": "",
+                "printSource": "GRW - Seite 131",
+                "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/UmgangmitRuestungenleichte",
+                "number": 1395
+            }
+        },
+        {
+            "data": {
+                "id": "umgangMitRuestungenMittelschwere",
+                "name": "Umgang mit Rüstungen (mittelschwere)",
+                "type": "feat",
+                "categories": [
+                    "Kampf"
+                ],
+                "prerequisites": "Umgang mit Rüstungen (leichte)",
+                "description": "Du bist darin geübt, mittelschwere Rüstungen zu tragen.",
+                "benefit": "Wenn du eine Rüstung der Art trägst, mit der du vertraut bist, gilt der Rüstungsmalus nur für stärke- und geschicklichkeitsbasierte Fertigkeitswürfe.",
+                "normal": "Ein Charakter, der eine Rüstung trägt, mit deren Umgang er nicht vertraut ist, muss seinen Rüstungsmalus auf seine Angriffswürfe und alle Fertigkeitswürfe, die eine Bewegung beinhalten addieren.",
+                "special": "Barbaren, Druiden, Kämpfer, Kleriker und Paladine besitzen das Talent [Umgang mit Rüstungen (mittelschwere) automatisch als Bonustalent und brauchen es daher nicht auszuwählen.",
+                "goal": "",
+                "completionBenefit": "",
+                "note": "",
+                "printSource": "GRW - Seite 131",
+                "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/UmgangmitRuestungenmittelschwere",
+                "number": 1396
+            }
+        },
+        {
+            "data": {
+                "id": "athlet",
+                "name": "Athlet",
                 "type": "feat",
                 "categories": [
                     "Allgemein"
                 ],
-                "prerequisites": "Spell Focus (conjuration).",
-                "description": "Your summoned creatures are more powerful and robust.",
-                "benefit": "Each creature you conjure with any summon spell gains a +4 enhancement bonus to Strength and Constitution for the duration of the spell that summoned it.",
+                "prerequisites": "",
+                "description": "Du verfügst über angeborenes sportliches Können.",
+                "benefit": "Du erhältst einen Bonus von +2 auf Fertigkeitswürfe für Klettern und Schwimmen. Besitzt du in einer dieser Fertigkeiten mindestens 10 Ränge, erhöht sich der Bonus für die jeweilige Fertigkeit auf +4.",
                 "normal": "",
                 "special": "",
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
-                "printSource": "PFRPG Core"
+                "printSource": "GRW - Seite 119",
+                "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/Athlet",
+                "number": 1281
             }
         },
         {
             "data": {
-                "id": "bleedingCritical",
-                "name": "Bleeding Critical",
+                "id": "verstaerkteHerbeizauberung",
+                "name": "Verstärkte Herbeizauberung",
                 "type": "feat",
                 "categories": [
-                    "Combat",
-                    "Critical"
+                    "Allgemein"
                 ],
-                "prerequisites": "Critical Focus, base attack bonus +11.",
-                "description": "Your critical hits cause opponents to bleed profusely.",
-                "benefit": "Whenever you score a critical hit with a slashing or piercing weapon, your opponent takes 2d6 points of bleed damage (see Appendix 2) each round on his turn, in addition to the damage dealt by the critical hit. Bleed damage can be stopped by a DC 15 Heal skill check or through any magical healing. The effects of this feat stack.",
+                "prerequisites": "Zauberfokus (Beschwörung)",
+                "description": "Von dir beschworene Kreaturen sind mächtiger und robuster als gewöhnlich.",
+                "benefit": "Jede Kreatur, die du mit einem Herbeirufen Zauber beschwörst, erhält für die Dauer des Zaubers, mit dem sie beschworen wurde, einen Verbesserungsbonus +4 auf Stärke und Konstitution.",
                 "normal": "",
-                "special": "You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
+                "special": "",
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
-                "printSource": "PFRPG Core"
+                "printSource": "GRW - Seite 134",
+                "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/VerstaerkteHerbeizauberung",
+                "number": 1425
             }
         },
         {
             "data": {
-                "id": "blindFight",
-                "name": "Blind-Fight",
+                "id": "kritischerTrefferBlutend",
+                "name": "Kritischer Treffer (blutend)",
+                "type": "feat",
+                "categories": [
+                    "Kampf",
+                    "Kritischer Treffer"
+                ],
+                "prerequisites": "Kritischer-Treffer-Fokus, Grund-Angriffsbonus +11",
+                "description": "Deine kritischen Treffer lassen deine Gegner intensiv bluten.",
+                "benefit": "Wenn du einen kritischen Treffer mit einer Hieb- oder Stichwaffe erzielst, erleidet dein Gegner zusätzlich zum Schaden des kritischen Treffers jede Runde 2W6 Schaden durch Blutung. Der Schaden durch Blutung kann mit einem Fertigkeitswurf auf Heilkunde (SG 15) oder durch jede Art magischer Heilung angehalten werden. Die Wirkung dieses Talents ist kumulativ.",
+                "normal": "",
+                "special": "Du kannst nur den Effekt eines Kritischer-Treffer-Talents zu einem kritischen Treffer hinzufügen, es sei denn, du besitzt das Talent Kritischer-Treffer-Meisterschaft.",
+                "goal": "",
+                "completionBenefit": "",
+                "note": "",
+                "printSource": "GRW - Seite 125",
+                "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/KritischerTrefferblutend",
+                "number": 1335
+            }
+        },
+        {
+            "data": {
+                "id": "blindKaempfen",
+                "name": "Blind kämpfen",
                 "type": "feat",
                 "categories": [
                     "Kampf"
                 ],
                 "prerequisites": "",
-                "description": "You are skilled at attacking opponents that you cannot clearly perceive.",
-                "benefit": "In melee, every time you miss because of concealment (see Chapter 8), you can reroll your miss chance percentile roll one time to see if you actually hit. An invisible attacker gets no advantages related to hitting you in melee. That is, you don't lose your Dexterity bonus to Armor Class, and the attacker doesn't get the usual +2 bonus for being invisible. The invisible attacker's bonuses do still apply for ranged attacks, however. You do not need to make Acrobatics skill checks to move at full speed while blinded.",
-                "normal": "Regular attack roll modifiers for invisible attackers trying to hit you apply, and you lose your Dexterity bonus to AC. The speed reduction for darkness and poor visibility also applies.",
-                "special": "The Blind-Fight feat is of no use against a character who is the subject of a blink spell.",
+                "description": "Du bist darin geübt, Gegner anzugreifen, die du nicht deutlich sehen kannst.",
+                "benefit": "Jedes Mal, wenn du im Nahkampf dein Ziel aufgrund von dessen Tarnung (siehe Kapitel Kampf) verfehlst, darfst du den Prozentwurf auf die Fehlschlagchance einmal neu auswürfeln, um zu bestimmen, ob du triffst. Ein unsichtbarer Angreifer hat dir gegenüber keine Vorteile beim Versuch, dich im Nahkampf zu treffen. Das heißt, dass du deinen Geschicklichkeitsbonus auf deine RK nicht verlierst. Außerdem verliert der Angreifer den Bonus von +2, den er üblicherweise wegen seiner Unsichtbarkeit erhält. Bei Fernkampfangriffen durch einen unsichtbaren Angreifer gilt dieser Angriffsbonus allerdings weiterhin. Außerdem musst du, wenn du blind bist, keinen Wurf auf Akrobatik ablegen, um dich mit voller Bewegungsrate zu bewegen.",
+                "normal": "Es gelten die üblichen Modifikatoren auf Angriffswürfe, die unsichtbare Angreifer ablegen, um dich zu treffen. Außerdem verlierst du deinen Geschicklichkeitsbonus auf deine RK. Des Weiteren gelten die Regeln bezüglich geringerer Bewegungsraten bei Dunkelheit oder schlechten Sichtverhältnissen.",
+                "special": "Das Talent Blind kämpfen bietet keinen Vorteil gegen Charaktere, die der Wirkung des Zaubers Flimmern unterliegen.",
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
-                "printSource": "PFRPG Core"
+                "printSource": "GRW - Seite 120",
+                "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/Blindkaempfen",
+                "number": 1294
             }
         },
         {
             "data": {
-                "id": "blindingCritical",
-                "name": "Blinding Critical",
+                "id": "kritischerTrefferBlind",
+                "name": "Kritischer Treffer (blind)",
                 "type": "feat",
                 "categories": [
-                    "Combat",
-                    "Critical"
+                    "Kampf",
+                    "Kritischer Treffer"
                 ],
-                "prerequisites": "Critical Focus, base attack bonus +15.",
-                "description": "Your critical hits blind your opponents.",
-                "benefit": "Whenever you score a critical hit, your opponent is permanently blinded. A successful Fortitude save reduces this to dazzled for 1d4 rounds. The DC of this Fortitude save is equal to 10 + your base attack bonus. This feat has no effect on creatures that do not rely on eyes for sight or creatures with more than two eyes (although multiple critical hits might cause blindness, at the GM's discretion). Blindness can be cured by heal, regeneration, remove blindness, or similar abilities.",
+                "prerequisites": "Kritischer-Treffer-Fokus, Grund-Angriffsbonus +15",
+                "description": "Deine kritischen Treffer lassen deine Gegner blind werden.",
+                "benefit": "Wenn du einen kritischen Treffer erzielst, erblindet dein Gegner permanent. Ein erfolgreicher Zähigkeitswurf verringert diesen Effekt zu „geblendet sein“ für eine Dauer von 1W4 Runden. Der SG des Zähigkeitswurfs ist 10 + dein Grund-Angriffsbonus. Dieses Talent hat keinerlei Wirkung bei Wesen, die zur Orientierung keine Augen verwenden oder mehr als zwei Augen besitzen (obwohl mehrere kritische Treffer in diesem Fall zu Blindheit führen können, gemäß Entscheidung des Spielleiters). Blindheit kann durch Heilung, Regeneration oder Blindheit kurieren geheilt werden.",
                 "normal": "",
-                "special": "You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
+                "special": "Du kannst nur den Effekt eines Kritischer-Treffer-Talents zu einem kritischen Treffer hinzufügen, es sei denn, du besitzt das Talent Kritischer-Treffer-Meisterschaft.",
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
-                "printSource": "PFRPG Core"
+                "printSource": "GRW - Seite 125",
+                "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/KritischerTrefferblind",
+                "number": 1334
             }
         },
         {
             "data": {
-                "id": "brewPotion",
-                "name": "Brew Potion",
+                "id": "trankBrauen",
+                "name": "Trank brauen",
                 "type": "feat",
                 "categories": [
-                    "Item Creation"
+                    "Erschaffung von Gegenständen"
                 ],
-                "prerequisites": "Caster level 3rd.",
-                "description": "You can create magic potions.",
-                "benefit": "You can create a potion of any 3rd-level or lower spell that you know and that targets one or more creatures or objects. Brewing a potion takes 2 hours if its base price is 250 gp or less, otherwise brewing a potion takes 1 day for each 1,000 gp in its base price. When you create a potion, you set the caster level, which must be sufficient to cast the spell in question and no higher than your own level. To brew a potion, you must use up raw materials costing one half this base price. See the magic item creation rules in Chapter 15 for more information. When you create a potion, you make any choices that you would normally make when casting the spell. Whoever drinks the potion is the target of the spell.",
+                "prerequisites": "Zauberstufe 3",
+                "description": "Du kannst magische Tränke erschaffen.",
+                "benefit": "Zu jedem Zauber des maximal 3. Grades, den du kennst, und der auf eine oder mehrere Kreaturen oder Objekte wirkt, kannst du einen Trank brauen. Wenn der Grundpreis eines Tranks höchstens 250 GM beträgt, dauert seine Herstellung 2 Stunden. Bei allen anderen Tränken dauert die Herstellung einen Tag für je 1.000 GM des Grundpreises. Wenn du einen Trank braust, legst du dabei seine Zauberstufe fest. Diese muss hoch genug sein, um den jeweiligen Zauber wirken zu können, darf aber nicht höher als deine eigene Stufe sein. Der Grundpreis eines Trankes beträgt Grad des Zaubers x Zauberstufe des Zaubers x 50 GM. Zur Herstellung eines Tranks verbrauchst du Materialien im Wert der Hälfte seines Grundpreises. Zusätzliche Informationen befinden sich in Kapitel Magische Gegenstände (Herstellung von magischen Gegenständen). Wenn du einen Trank braust, triffst du alle Entscheidungen, die du auch beim normalen Wirken des Zaubers treffen würdest. Das Ziel des Zaubers ist die Person, die den Trank zu sich nimmt.",
                 "normal": "",
                 "special": "",
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
-                "printSource": "PFRPG Core"
+                "printSource": "GRW - Seite 131",
+                "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/Trankbrauen",
+                "number": 1391
             }
         },
         {
             "data": {
-                "id": "catchOffGuard",
-                "name": "Catch Off-Guard",
+                "id": "improvisierterNahkampf",
+                "name": "Improvisierter Nahkampf",
                 "type": "feat",
                 "categories": [
                     "Kampf"
                 ],
                 "prerequisites": "",
-                "description": "Foes are surprised by your skilled use of unorthodox and improvised weapons.",
-                "benefit": "You do not suffer any penalties for using an improvised melee weapon. Unarmed opponents are flat-footed against any attacks you make with an improvised melee weapon.",
-                "normal": "You take a -4 penalty on attack rolls made with an improvised weapon.",
+                "description": "Feinde werden durch die ungewöhnlichen Waffen, die du benutzt, überrascht.",
+                "benefit": "Du erhältst keine Abzüge für den Kampf mit improvisierten Nahkampfwaffen. Unbewaffnete Gegner werden von Angriffen, die du mit improvisierten Nahkampfwaffen ausführst, auf dem falschen Fuß erwischt.",
+                "normal": "Auf Angriffe mit improvisierten Waffen erhältst du einen Malus -4.",
                 "special": "",
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
-                "printSource": "PFRPG Core"
+                "printSource": "GRW - Seite 124",
+                "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/ImprovisierterNahkampf",
+                "number": 1324
             }
         },
         {
@@ -493,7 +527,7 @@
                 "name": "Craft Magic Arms and Armor",
                 "type": "feat",
                 "categories": [
-                    "Item Creation"
+                    "Erschaffung von Gegenständen"
                 ],
                 "prerequisites": "Caster level 5th.",
                 "description": "You can create magic armor, shields, and weapons.",
@@ -512,7 +546,7 @@
                 "name": "Craft Rod",
                 "type": "feat",
                 "categories": [
-                    "Item Creation"
+                    "Erschaffung von Gegenständen"
                 ],
                 "prerequisites": "Caster level 9th.",
                 "description": "You can create magic rods.",
@@ -531,7 +565,7 @@
                 "name": "Craft Wand",
                 "type": "feat",
                 "categories": [
-                    "Item Creation"
+                    "Erschaffung von Gegenständen"
                 ],
                 "prerequisites": "Caster level 5th.",
                 "description": "You can create magic wands.",
@@ -550,7 +584,7 @@
                 "name": "Craft Staff",
                 "type": "feat",
                 "categories": [
-                    "Item Creation"
+                    "Erschaffung von Gegenständen"
                 ],
                 "prerequisites": "Caster level 11th.",
                 "description": "You can create magic staves.",
@@ -569,7 +603,7 @@
                 "name": "Craft Wondrous Item",
                 "type": "feat",
                 "categories": [
-                    "Item Creation"
+                    "Erschaffung von Gegenständen"
                 ],
                 "prerequisites": "Caster level 3rd.",
                 "description": "You can create wondrous items, a type of magic item.",
@@ -683,14 +717,14 @@
                 "name": "Deafening Critical",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Critical"
                 ],
                 "prerequisites": "Critical Focus, base attack bonus +13.",
                 "description": "Your critical hits cause enemies to lose their hearing.",
                 "benefit": "Whenever you score a critical hit against an opponent, the victim is permanently deafened. A successful Fortitude save reduces the deafness to 1 round. The DC of this Fortitude save is equal to 10 + your base attack bonus. This feat has no effect on deaf creatures. This deafness can be cured by heal, regeneration, remove deafness, or a similar ability.",
                 "normal": "",
-                "special": "You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
+                "special": "Du kannst nur den Effekt eines Kritischer-Treffer-Talents zu einem kritischen Treffer hinzufügen, es sei denn, du besitzt das Talent Kritischer-Treffer-Meisterschaft.",
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
@@ -950,7 +984,7 @@
                 "name": "Exhausting Critical",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Critical"
                 ],
                 "prerequisites": "Critical Focus, Tiring Critical, base attack bonus +15.",
@@ -1160,7 +1194,7 @@
                 "name": "Forge Ring",
                 "type": "feat",
                 "categories": [
-                    "Item Creation"
+                    "Erschaffung von Gegenständen"
                 ],
                 "prerequisites": "Caster level 7th.",
                 "description": "You can create magic rings.",
@@ -2255,7 +2289,7 @@
                 "note": "",
                 "printSource": "GRW - Seite 120",
                 "prdLink": "http://prd.5footstep.de/Grundregelwerk/Talente/BehaendeBewegung",
-                "number": 5
+                "number": 1287
             }
         },
         {
@@ -2492,7 +2526,7 @@
                 "name": "Scribe Scroll",
                 "type": "feat",
                 "categories": [
-                    "Item Creation"
+                    "Erschaffung von Gegenständen"
                 ],
                 "prerequisites": "Caster level 1st.",
                 "description": "You can create magic scrolls.",
@@ -2644,14 +2678,14 @@
                 "name": "Sickening Critical",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Critical"
                 ],
                 "prerequisites": "Critical Focus, base attack bonus +11.",
                 "description": "Your critical hits cause opponents to become sickened.",
                 "benefit": "Whenever you score a critical hit, your opponent becomes sickened for 1 minute. The effects of this feat do not stack. Additional hits instead add to the effect's duration.",
                 "normal": "",
-                "special": "You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
+                "special": "Du kannst nur den Effekt eines Kritischer-Treffer-Talents zu einem kritischen Treffer hinzufügen, es sei denn, du besitzt das Talent Kritischer-Treffer-Meisterschaft.",
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
@@ -2854,14 +2888,14 @@
                 "name": "Staggering Critical",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Critical"
                 ],
                 "prerequisites": "Critical Focus, base attack bonus +13.",
                 "description": "Your critical hits cause opponents to slow down.",
                 "benefit": "Whenever you score a critical hit, your opponent becomes staggered for 1d4+1 rounds. A successful Fortitude save reduces the duration to 1 round. The DC of this Fortitude save is equal to 10 + your base attack bonus. The effects of this feat do not stack. Additional hits instead add to the duration.",
                 "normal": "",
-                "special": "You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
+                "special": "Du kannst nur den Effekt eines Kritischer-Treffer-Talents zu einem kritischen Treffer hinzufügen, es sei denn, du besitzt das Talent Kritischer-Treffer-Meisterschaft.",
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
@@ -2969,14 +3003,14 @@
                 "name": "Stunning Critical",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Critical"
                 ],
                 "prerequisites": "Critical Focus, Staggering Critical, base attack bonus +17.",
                 "description": "Your critical hits cause opponents to become stunned.",
                 "benefit": "Whenever you score a critical hit, your opponent becomes stunned for 1d4 rounds. A successful Fortitude save reduces this to staggered for 1d4 rounds. The DC of this Fortitude save is equal to 10 + your base attack bonus. The effects of this feat do not stack. Additional hits instead add to the duration.",
                 "normal": "",
-                "special": "You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
+                "special": "Du kannst nur den Effekt eines Kritischer-Treffer-Talents zu einem kritischen Treffer hinzufügen, es sei denn, du besitzt das Talent Kritischer-Treffer-Meisterschaft.",
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
@@ -3027,14 +3061,14 @@
                 "name": "Tiring Critical",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Critical"
                 ],
                 "prerequisites": "Critical Focus, base attack bonus +13.",
                 "description": "Your critical hits cause opponents to become fatigued.",
                 "benefit": "Whenever you score a critical hit, your opponent becomes fatigued. This feat has no additional effect on a fatigued or exhausted creature.",
                 "normal": "",
-                "special": "You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
+                "special": "Du kannst nur den Effekt eines Kritischer-Treffer-Talents zu einem kritischen Treffer hinzufügen, es sei denn, du besitzt das Talent Kritischer-Treffer-Meisterschaft.",
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
@@ -3389,7 +3423,7 @@
                 "name": "Craft Construct",
                 "type": "feat",
                 "categories": [
-                    "Item Creation"
+                    "Erschaffung von Gegenständen"
                 ],
                 "prerequisites": "Caster level 5th, Craft Magic Arms and Armor, Craft Wondrous Item.",
                 "description": "You can create construct creatures like golems.",
@@ -3902,7 +3936,7 @@
                 "name": "Coordinated Defense",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "",
@@ -3922,7 +3956,7 @@
                 "name": "Coordinated Maneuvers",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "",
@@ -3980,14 +4014,14 @@
                 "name": "Crippling Critical",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Critical"
                 ],
                 "prerequisites": "Critical Focus, base attack bonus +13.",
                 "description": "You are able to maim a target and hinder its movement.",
                 "benefit": "Whenever you score a critical hit against an opponent, its speed is halved for 1 minute. A successful Fortitude save reduces this duration to 1d4 rounds. The DC of this save is equal to 10 + your base attack bonus. Against creatures with multiple types of movement, you must choose which movement type to affect. A flying creature hit by this attack must make a DC 10 Fly check to remain airborne, and has its maneuverability reduced by one step.",
                 "normal": "",
-                "special": "You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
+                "special": "Du kannst nur den Effekt eines Kritischer-Treffer-Talents zu einem kritischen Treffer hinzufügen, es sei denn, du besitzt das Talent Kritischer-Treffer-Meisterschaft.",
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
@@ -5266,7 +5300,7 @@
                 "note": "",
                 "printSource": "EXP - Seite 164",
                 "prdLink": "http://prd.5footstep.de/Expertenregeln/Talente/LeichtfuessigeBewegung",
-                "number": 6
+                "number": 1957
             }
         },
         {
@@ -5313,7 +5347,7 @@
                 "name": "Lookout",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "",
@@ -5504,7 +5538,7 @@
                 "name": "Outflank",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Base attack bonus +4.",
@@ -5524,7 +5558,7 @@
                 "name": "Paired Opportunists",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "",
@@ -5677,7 +5711,7 @@
                 "name": "Precise Strike",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Dex 13, base attack bonus +1.",
@@ -6039,7 +6073,7 @@
                 "name": "Shield Wall",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Shield Proficiency.",
@@ -6363,7 +6397,7 @@
                 "name": "Swap Places",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "",
@@ -6839,7 +6873,7 @@
                 "name": "Boar Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Improved Unarmed Strike, Intimidate 3 ranks.",
@@ -6954,7 +6988,7 @@
                 "name": "Broken Wing Gambit",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Bluff 5 ranks.",
@@ -6993,7 +7027,7 @@
                 "name": "Cavalry Formation",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Mounted Combat.",
@@ -7203,7 +7237,7 @@
                 "name": "Coordinated Charge",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "You have at least two other teamwork feats, base attack bonus +10.",
@@ -7242,7 +7276,7 @@
                 "name": "Crane Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Dodge, Improved Unarmed Strike, base attack bonus +2 or monk level 1st.",
@@ -7889,7 +7923,7 @@
                 "name": "Djinni Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Con 13, Wis 15, Elemental Fist**, Improved Unarmed Strike, base attack bonus +9 or monk level 5th.",
@@ -8004,7 +8038,7 @@
                 "name": "Dragon Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Str 15, Improved Unarmed Strike, Acrobatics 3 ranks.",
@@ -8024,7 +8058,7 @@
                 "name": "Dramatic Display",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Performance"
                 ],
                 "prerequisites": "Dazzling Display.",
@@ -8063,7 +8097,7 @@
                 "name": "Earth Child Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Wis 13, dwarf or gnome, defensive training racial trait, Improved Unarmed Strike, Acrobatics 3 ranks.",
@@ -8121,7 +8155,7 @@
                 "name": "Efreeti Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Con 13, Wis 15, Elemental Fist**, Improved Unarmed Strike, base attack bonus +9 or monk level 5th.",
@@ -8179,7 +8213,7 @@
                 "name": "Enfilading Fire",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Point-Blank Shot, Precise Shot, one other teamwork feat.",
@@ -8294,7 +8328,7 @@
                 "name": "Feint Partner",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Bluff 1 rank.",
@@ -8732,7 +8766,7 @@
                 "name": "Hero's Display",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Performance"
                 ],
                 "prerequisites": "Dazzling Display, Weapon Focus, and proficiency with the selected weapon.",
@@ -8790,7 +8824,7 @@
                 "name": "Impact Critical Shot",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Critical"
                 ],
                 "prerequisites": "Dex 13, Point-Blank Shot, base attack bonus +9.",
@@ -8810,7 +8844,7 @@
                 "name": "Impaling Critical",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Critical"
                 ],
                 "prerequisites": "Critical Focus, Weapon Specialization with selected piercing melee weapon, base attack bonus +11.",
@@ -8906,7 +8940,7 @@
                 "name": "Improved Feint Partner",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Bluff 1 rank, Combat Reflexes, Feint Partner, base attack bonus +6.",
@@ -8926,7 +8960,7 @@
                 "name": "Improved Impaling Critical",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Critical"
                 ],
                 "prerequisites": "Impaling Critical, Critical Focus, Weapon Specialization with selected piercing melee weapon, base attack bonus +13.",
@@ -9098,7 +9132,7 @@
                 "name": "Janni Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Improved Unarmed Strike, Acrobatics 3 ranks, Perform (dance) 3 ranks.",
@@ -9194,7 +9228,7 @@
                 "name": "Kirin Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Improved Unarmed Strike, Knowledge (arcana) 6 ranks, Knowledge (dungeoneering, local, nature, planes, or religion) 1 rank.",
@@ -9271,7 +9305,7 @@
                 "name": "Mantis Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Improved Unarmed Strike, Stunning Fist, Heal 3 ranks.",
@@ -9367,7 +9401,7 @@
                 "name": "Marid Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Con 13, Wis 15, Elemental Fist**, Improved Unarmed Strike, base attack bonus +9 or monk level 5th.",
@@ -9425,7 +9459,7 @@
                 "name": "Masterful Display",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Performance"
                 ],
                 "prerequisites": "Dazzling Display, any two performance feats.",
@@ -9502,7 +9536,7 @@
                 "name": "Mocking Dance",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Performance"
                 ],
                 "prerequisites": "Acrobatics 4 ranks or Perform (dance) 4 ranks.",
@@ -9579,7 +9613,7 @@
                 "name": "Monkey Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Wis 13, Improved Unarmed Strike, Acrobatics 5 ranks, Climb 5 ranks.",
@@ -9656,7 +9690,7 @@
                 "name": "Murderer's Circle",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Performance"
                 ],
                 "prerequisites": "Dodge, Acrobatics 4 ranks.",
@@ -9866,7 +9900,7 @@
                 "name": "Pack Attack",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Base attack bonus +1.",
@@ -9924,7 +9958,7 @@
                 "name": "Panther Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Wis 13, Combat Reflexes, Improved Unarmed Strike.",
@@ -10495,7 +10529,7 @@
                 "name": "Savage Display",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Performance"
                 ],
                 "prerequisites": "Dazzling Display.",
@@ -10572,7 +10606,7 @@
                 "name": "Seize the Moment",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Combat Reflexes, Improved Critical.",
@@ -10630,7 +10664,7 @@
                 "name": "Shaitan Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Con 13, Wis 15, Elemental Fist**, Improved Unarmed Strike, base attack bonus +9 or monk level 5th.",
@@ -10878,7 +10912,7 @@
                 "name": "Snake Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Improved Unarmed Strike, Acrobatics 1 rank, Sense Motive 3 ranks.",
@@ -10955,7 +10989,7 @@
                 "name": "Snapping Turtle Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Improved Unarmed Strike, base attack bonus +1 or monk level 1st.",
@@ -11222,7 +11256,7 @@
                 "name": "Tandem Trip",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "",
@@ -11242,7 +11276,7 @@
                 "name": "Target of Opportunity",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Point-Blank Shot, base attack bonus +6.",
@@ -11319,7 +11353,7 @@
                 "name": "Tiger Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Improved Unarmed Strike, base attack bonus +3 or monk level 3rd.",
@@ -12257,7 +12291,7 @@
                 "description": "Your critical hit from a spell or spell-like ability afflicts the target with a major spellblight.",
                 "benefit": "Whenever you confirm a critical hit with a touch spell, ranged touch spell, or spell-like ability against an opponent, the victim gains a random major spellblight (see page 96).",
                 "normal": "",
-                "special": "You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
+                "special": "Du kannst nur den Effekt eines Kritischer-Treffer-Talents zu einem kritischen Treffer hinzufügen, es sei denn, du besitzt das Talent Kritischer-Treffer-Meisterschaft.",
                 "goal": "",
                 "completionBenefit": "",
                 "note": "",
@@ -17894,7 +17928,7 @@
                 "name": "Banishing Critical",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Critical"
                 ],
                 "prerequisites": "Critical Focus, ability to cast dismissal or banishment, caster level 9th.",
@@ -19453,7 +19487,7 @@
                 "name": "Circling Offense",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Dodge, Mobility, base attack bonus +3.",
@@ -19492,7 +19526,7 @@
                 "name": "Topple Foe",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Combat Expertise, Improved Trip.",
@@ -19835,7 +19869,7 @@
                 "name": "Brutal Grappler",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Half-orc or orc.",
@@ -21242,7 +21276,7 @@
                 "name": "Kobold Flood",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Combat Expertise, Kobold Groundling, Kobold Style, Small size or smaller.",
@@ -21262,7 +21296,7 @@
                 "name": "Kobold Groundling",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Combat Expertise, Kobold Style, Small size or smaller.",
@@ -21282,7 +21316,7 @@
                 "name": "Kobold Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Combat Expertise, Small size or smaller.",
@@ -21720,7 +21754,7 @@
                 "name": "Overwhelm",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "",
@@ -21740,7 +21774,7 @@
                 "name": "Tandemevasion",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Dex 13, Dodge.",
@@ -21836,7 +21870,7 @@
                 "name": "Flaying Critical",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Critical"
                 ],
                 "prerequisites": "Critical Focus, base attack bonus +11.",
@@ -22673,7 +22707,7 @@
                 "name": "Coordinated Distraction",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "",
@@ -22693,7 +22727,7 @@
                 "name": "Punch Through",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Base attack bonus +6.",
@@ -23074,7 +23108,7 @@
                 "name": "Demon Grafter",
                 "type": "feat",
                 "categories": [
-                    "Item Creation"
+                    "Erschaffung von Gegenständen"
                 ],
                 "prerequisites": "Demonologist, Heal 5 ranks, Knowledge (planes) 5 ranks, Spellcraft 5 ranks.",
                 "description": "Your studies into demonic anatomy and physiology allow you to graft their immortal tissues onto mortal flesh.",
@@ -23359,7 +23393,7 @@
                 "name": "Wolf Savage",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Wis 17, Improved Unarmed Strike, Wolf Style, Wolf Trip, Knowledge (nature) 9 ranks.",
@@ -23379,7 +23413,7 @@
                 "name": "Wolf Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Wis 13, Improved Unarmed Strike, Knowledge (nature) 3 ranks.",
@@ -23399,7 +23433,7 @@
                 "name": "Wolf Trip",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Wis 15, Improved Unarmed Strike, Wolf Style, Knowledge (nature) 6 ranks.",
@@ -23552,7 +23586,7 @@
                 "name": "Inscribe Magical Tattoo",
                 "type": "feat",
                 "categories": [
-                    "Item Creation"
+                    "Erschaffung von Gegenständen"
                 ],
                 "prerequisites": "Craft (calligraphy, paintings, or tattoos) 5 ranks, caster level 5th.",
                 "description": "You can craft magical tattoos.",
@@ -23571,7 +23605,7 @@
                 "name": "Extend The Bulwark",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "",
@@ -24161,7 +24195,7 @@
                 "name": "Craft Ooze",
                 "type": "feat",
                 "categories": [
-                    "Item Creation"
+                    "Erschaffung von Gegenständen"
                 ],
                 "prerequisites": "Brew Potion, Craft Wondrous Item, Craft (alchemy) 3 ranks, caster level 5th.",
                 "description": "You can use alchemy to create dangerous ooze creatures.",
@@ -24199,7 +24233,7 @@
                 "name": "Black Powder Spectacle",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Grit"
                 ],
                 "prerequisites": "Amateur Gunslinger or the grit class feature, base attack bonus +4.",
@@ -24371,7 +24405,7 @@
                 "name": "Casterbane Shot",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Grit"
                 ],
                 "prerequisites": "Amateur Gunslinger or the grit class feature, Point-Blank Shot, Precise Shot, base attack bonus +4.",
@@ -24410,7 +24444,7 @@
                 "name": "Redirected Shot",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Grit"
                 ],
                 "prerequisites": "Amateur Gunslinger or the grit class feature, Deadly Aim, Point-Blank Shot, Precise Shot.",
@@ -25019,7 +25053,7 @@
                 "name": "Destroy Identity",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Critical"
                 ],
                 "prerequisites": "Critical Focus, base attack bonus +11, worshiper of Lamashtu.",
@@ -26065,7 +26099,7 @@
                 "name": "Sun Striker",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Critical"
                 ],
                 "prerequisites": "Critical Focus, Weapon Focus (scimitar), character level 7th, worshiper of Sarenrae.",
@@ -27187,7 +27221,7 @@
                 "name": "Coordinated Shot",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Point-Blank Shot.",
@@ -27302,7 +27336,7 @@
                 "name": "Distracting Charge",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "",
@@ -27379,7 +27413,7 @@
                 "name": "Dueling Cape Deed",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Panache"
                 ],
                 "prerequisites": "Dodge, Sleight of Hand 1 rank.",
@@ -27836,7 +27870,7 @@
                 "name": "Grabbing Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Improved Grapple; base attack bonus +6, brawler's flurry class feature, or flurry of blows class feature.",
@@ -28065,7 +28099,7 @@
                 "name": "Improved Swap Places",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Swap Places.",
@@ -28180,7 +28214,7 @@
                 "name": "Intercept Charge",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "",
@@ -28257,7 +28291,7 @@
                 "name": "Jabbing Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Improved Unarmed Strike; base attack bonus +6, brawler's flurry class feature, or flurry of blows class feature.",
@@ -28289,7 +28323,7 @@
                 "note": "",
                 "printSource": "ABR VI: Klassen",
                 "prdLink": "http://prd.5footstep.de/AusbauregelnVIKlassen/Talente/Hochtreten",
-                "number": 3
+                "number": 13884
             }
         },
         {
@@ -28526,7 +28560,7 @@
                 "name": "Pummeling Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Improved Unarmed Strike; base attack bonus +6, brawler's flurry class feature, or flurry of blows class feature.",
@@ -29249,7 +29283,7 @@
                 "name": "Wounded Paw Gambit",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Broken Wing Gambit, Bluff 5 ranks.",
@@ -29484,7 +29518,7 @@
                 "name": "Craft Shadow Piercing",
                 "type": "feat",
                 "categories": [
-                    "Item Creation"
+                    "Erschaffung von Gegenständen"
                 ],
                 "prerequisites": "Craft (jewelry) 5 ranks, caster level 5th.",
                 "description": "You can craft magical piercings infused with the power of shadow.",
@@ -29617,7 +29651,7 @@
                 "name": "Fighting Frenzy",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Cha 13, rage class feature.",
@@ -30340,7 +30374,7 @@
                 "name": "Disarm Partner",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Base attack bonus +1.",
@@ -30360,7 +30394,7 @@
                 "name": "Improved Disarm Partner",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Disarm Partner, base attack bonus +5.",
@@ -30380,7 +30414,7 @@
                 "name": "Snapping Flank",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Base attack bonus +9, bite attack.",
@@ -30476,7 +30510,7 @@
                 "name": "Ranged Disarm",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Targeting"
                 ],
                 "prerequisites": "Dex 13, Deadly Aim, base attack bonus +1.",
@@ -30496,7 +30530,7 @@
                 "name": "Ranged Trip",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Targeting"
                 ],
                 "prerequisites": "Dex 13, Deadly Aim, base attack bonus +1.",
@@ -30611,7 +30645,7 @@
                 "name": "Volley Fire",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Point-Blank Shot.",
@@ -30783,7 +30817,7 @@
                 "name": "Friendly Fire Maneuvers",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Point-Blank Shot, Precise Shot.",
@@ -30898,7 +30932,7 @@
                 "name": "Spirit Of The Corps",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "",
@@ -31488,7 +31522,7 @@
                 "name": "Darting Retrieval",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Int 13, Combat Expertise, Improved Disarm.",
@@ -31508,7 +31542,7 @@
                 "name": "Harder They Fall",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Str 13, Int 13, Combat Expertise, Power Attack.",
@@ -31547,7 +31581,7 @@
                 "name": "Suppress Regeneration",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "",
@@ -31757,7 +31791,7 @@
                 "name": "Cooperative Rend",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Rend, troll.",
@@ -32632,7 +32666,7 @@
                 "name": "Harrying Partners",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Any teamwork feat, base attack bonus +6.",
@@ -32652,7 +32686,7 @@
                 "name": "Open Up",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Int 13, Combat Expertise.",
@@ -32691,7 +32725,7 @@
                 "name": "Stick Together",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "",
@@ -32711,7 +32745,7 @@
                 "name": "Cudgeler Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Bludgeoner.",
@@ -32731,7 +32765,7 @@
                 "name": "Cudgeler Sweep",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Bludgeoner, Cudgeler Style, base attack bonus +5 or monk level 5th.",
@@ -32751,7 +32785,7 @@
                 "name": "Cudgeler Takedown",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Bludgeoner, Cudgeler Style, Cudgeler Sweep, base attack bonus +9 or monk level 9th.",
@@ -32771,7 +32805,7 @@
                 "name": "Kraken Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Wis 13, Improved Grapple, Improved Unarmed Strike, base attack bonus +3 or monk level 3rd.",
@@ -32791,7 +32825,7 @@
                 "name": "Kraken Throttle",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Wis 13, Improved Grapple, Improved Unarmed Strike, Kraken Style, base attack bonus +5 or monk level 5th.",
@@ -32811,7 +32845,7 @@
                 "name": "Kraken Wrack",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Wis 13, Improved Grapple, Improved Unarmed Strike, Kraken Style, base attack bonus +7 or monk level 7th.",
@@ -33021,7 +33055,7 @@
                 "name": "Diversion Shot",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Stealthy, Target of Opportunity.",
@@ -33117,7 +33151,7 @@
                 "name": "Charging Stag Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Dex 13, Dodge, Improved Unarmed Strike, Mobility.",
@@ -33213,7 +33247,7 @@
                 "name": "Stag Horns",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Dex 13, Charging Stag Style, Dodge, Improved Unarmed Strike, Mobility.",
@@ -33233,7 +33267,7 @@
                 "name": "Stag Submission",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Charging Stag Style, Dodge, Improved Unarmed Strike, Mobility, Stag Horns.",
@@ -33728,7 +33762,7 @@
                 "name": "Grow Plant Creature",
                 "type": "feat",
                 "categories": [
-                    "Item Creation"
+                    "Erschaffung von Gegenständen"
                 ],
                 "prerequisites": "Train Plants, Handle Animal 5 ranks, Knowledge (nature) 5 ranks.",
                 "description": "Through careful study and communion with nature, you have learned how to cultivate and raise plant creatures.",
@@ -34393,7 +34427,7 @@
                 "name": "Bleeding Stare",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Stare"
                 ],
                 "prerequisites": "Mesmerist level 5th, painful stare class feature.",
@@ -34508,7 +34542,7 @@
                 "name": "Demoralizing Stare",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Stare"
                 ],
                 "prerequisites": "Mesmerist level 9th, painful stare class feature.",
@@ -34642,7 +34676,7 @@
                 "name": "Excoriating Stare",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Stare"
                 ],
                 "prerequisites": "Mesmerist level 11th, painful stare class feature.",
@@ -34833,7 +34867,7 @@
                 "name": "Fatiguing Stare",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Stare"
                 ],
                 "prerequisites": "Mesmerist level 7th, painful stare class feature.",
@@ -34967,7 +35001,7 @@
                 "name": "Intense Pain",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Stare"
                 ],
                 "prerequisites": "Mesmerist level 7th, painful stare class feature.",
@@ -34987,7 +35021,7 @@
                 "name": "Interweave Composite Blast",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Kinetic blast class feature.",
@@ -35919,7 +35953,7 @@
                 "name": "Sneaking Critical",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Critical"
                 ],
                 "prerequisites": "Critical Focus, base attack bonus +9, sneak attack class feature.",
@@ -36129,7 +36163,7 @@
                 "name": "Dastardly Trick",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Panache"
                 ],
                 "prerequisites": "Int 13; Amateur Swashbuckler or panache class feature; Combat Expertise; Improved Dirty Trick.",
@@ -36149,7 +36183,7 @@
                 "name": "Dirty Critical Hit",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Critical"
                 ],
                 "prerequisites": "Int 13, Combat Expertise, Critical Focus, Improved Dirty Trick, base attack bonus +11.",
@@ -36245,7 +36279,7 @@
                 "name": "Kitsune Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Int 13, Combat Expertise, Improved Dirty Trick.",
@@ -36265,7 +36299,7 @@
                 "name": "Kitsune Tricks",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Int 13; Combat Expertise; Improved Dirty Trick; Kitsune Style; base attack bonus +3 or monk level 3rd.",
@@ -36285,7 +36319,7 @@
                 "name": "Kitsune Vengeance",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Int 13; Combat Expertise; Improved Dirty Trick; Kitsune Style; Kitsune Tricks; base attack bonus +6 or monk level 6th.",
@@ -36571,7 +36605,7 @@
                 "name": "Ambush Squad",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Base attack bonus +1, kobold.",
@@ -36629,7 +36663,7 @@
                 "name": "Artillery Team",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Proficiency with light crossbow, heavy crossbow, or musket; size Small or Medium.",
@@ -36649,7 +36683,7 @@
                 "name": "Barrage Of Styles",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Base attack bonus +1, human.",
@@ -36669,7 +36703,7 @@
                 "name": "Blades Above And Below",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Base attack bonus +6.",
@@ -36689,7 +36723,7 @@
                 "name": "Burn It Down!",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Base attack bonus +1, goblin.",
@@ -36728,7 +36762,7 @@
                 "name": "Choir Of Blades",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "",
@@ -36748,7 +36782,7 @@
                 "name": "Concentrated Fire",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Point-Blank Shot, elf, weapon familiarity racial trait.",
@@ -36806,7 +36840,7 @@
                 "name": "Crowd Of Bullies",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Half-orc.",
@@ -37035,7 +37069,7 @@
                 "name": "Friendly Rivalry",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Human (Taldan).",
@@ -37055,7 +37089,7 @@
                 "name": "Giantslaying Team",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Dex 13, Dodge, Mobility, base attack bonus +4, defensive training racial trait.",
@@ -37227,7 +37261,7 @@
                 "name": "Pack Intimidation",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Half-orc, intimidating racial trait.",
@@ -37247,7 +37281,7 @@
                 "name": "Pursuit Of Glory",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Human (Ulfen).",
@@ -37305,7 +37339,7 @@
                 "name": "Returning Throw",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Point-Blank Shot, Precise Shot, Sleight of Hand 3 ranks, goblinoid subtype.",
@@ -37325,7 +37359,7 @@
                 "name": "Ruthless Opportunist",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Human (Chelaxian).",
@@ -37440,7 +37474,7 @@
                 "name": "Suppressive Fire",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Far Shot, Point-Blank Shot, Precise Shot, keen senses racial trait.",
@@ -38049,7 +38083,7 @@
                 "name": "Dwarven Hatred Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Base attack bonus +1, defensive training and hatred racial traits, Medium size.",
@@ -38107,7 +38141,7 @@
                 "name": "Elven Battle Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Elven Battle Training, Weapon Finesse, base attack bonus +1, weapon familiarity racial trait.",
@@ -38165,7 +38199,7 @@
                 "name": "Illusive Gnome Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Int 13, Combat Expertise, Gnome Weapon Focus, Improved Feint, base attack bonus +1, gnome magic and weapon familiarity racial traits.",
@@ -38204,7 +38238,7 @@
                 "name": "Orc Fury Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Bullying Blow, Intimidating Prowess, Intimidate 3 ranks, weapon familiarity racial trait.",
@@ -38300,7 +38334,7 @@
                 "name": "Slipslinger Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Weapon Focus (sling) or weapon training (thrown) class feature, warslinger racial trait.",
@@ -38358,7 +38392,7 @@
                 "name": "Empty Quiver Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Weapon Focus with the chosen weapon.",
@@ -38378,7 +38412,7 @@
                 "name": "Overwatch Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Precise Shot, Rapid Shot, Weapon Focus with the chosen weapon.",
@@ -38474,7 +38508,7 @@
                 "name": "Startoss Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Dex 13, Point-Blank Shot, Weapon Focus with the chosen weapon.",
@@ -38532,7 +38566,7 @@
                 "name": "Ascetic Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Weapon Focus with the chosen melee weapon; base attack bonus +1 or monk level 1st.",
@@ -38571,7 +38605,7 @@
                 "name": "Outslug Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Int 13; Combat Expertise or brawler's cunning class feature; Weapon Focus with the chosen weapon.",
@@ -38648,7 +38682,7 @@
                 "name": "Smashing Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Str 13, Improved Sunder, Power Attack, Weapon Focus with the chosen weapon.",
@@ -38706,7 +38740,7 @@
                 "name": "Spear Dancing Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Dex 13, Two-Weapon Fighting, Weapon Focus with the chosen weapon.",
@@ -38745,7 +38779,7 @@
                 "name": "Swordplay Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Combat Expertise, Weapon Focus with the chosen weapon, base attack bonus +3.",
@@ -39266,7 +39300,7 @@
                 "name": "Telekinetic Mastery",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Item Mastery"
                 ],
                 "prerequisites": "Use Magic Device 5 ranks, base Fortitude save bonus +7.",
@@ -39837,7 +39871,7 @@
                 "name": "Blinded Blade Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Blind-Fight, Perception 5 ranks.",
@@ -39895,7 +39929,7 @@
                 "name": "Cloak And Dagger Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Int 13, Combat Expertise, Improved Dirty Trick, Vital Strike, Weapon Focus with the chosen weapon, base attack bonus +6.",
@@ -40212,7 +40246,7 @@
                 "note": "",
                 "printSource": "ABR VIII: Intrigen",
                 "prdLink": "http://prd.5footstep.de/AusbauregelnVIIIIntrigen/Talente/VorsichtigerFlieger",
-                "number": 4
+                "number": 15086
             }
         },
         {
@@ -40506,7 +40540,7 @@
                 "name": "Enrage Opponent",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Panache"
                 ],
                 "prerequisites": "Cha 13, Amateur Swashbuckler or panache class feature, Persuasive.",
@@ -40526,7 +40560,7 @@
                 "name": "Entreating Critical",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Critical"
                 ],
                 "prerequisites": "Cha 15, Call Truce, Critical Focus, Persuasive, base attack bonus +11, Diplomacy 5 ranks.",
@@ -40755,7 +40789,7 @@
                 "name": "Fox Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Int 13.",
@@ -41041,7 +41075,7 @@
                 "name": "Lightning Draw",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Panache"
                 ],
                 "prerequisites": "Quick Draw, swashbuckler initiative deed, swashbuckler level 7th.",
@@ -41175,7 +41209,7 @@
                 "name": "My Blade Is Yours",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Int 13, Combat Expertise, Sense Motive 3 ranks.",
@@ -41290,7 +41324,7 @@
                 "name": "Owl Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Dex 13, Skill Focus (Stealth), Stealth 1 rank.",
@@ -41766,7 +41800,7 @@
                 "name": "Street Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Str 15, Improved Bull Rush, Improved Unarmed Strike, Power Attack, base attack bonus +4 or monk level 3rd.",
@@ -41805,7 +41839,7 @@
                 "name": "Structural Strike",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Panache"
                 ],
                 "prerequisites": "Knowledge (engineering) 5 ranks, precise strike class feature or precise strike deed.",
@@ -42262,7 +42296,7 @@
                 "name": "Bulette Charge Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Str 13, Improved Overrun, Power Attack, proficiency with heavy armor.",
@@ -42358,7 +42392,7 @@
                 "name": "Spring-Heeled Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Dex 13, Dodge, Mobility, Shot on the Run or Spring Attack, base attack bonus +4, proficiency with light armor.",
@@ -42378,7 +42412,7 @@
                 "name": "Swift Iron Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Str 13, Dex 13, proficiency with medium armor.",
@@ -42436,7 +42470,7 @@
                 "name": "Mobile Bulwark Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Str 13, Shield Focus, Tower Shield Proficiency, base attack bonus +1.",
@@ -42532,7 +42566,7 @@
                 "name": "Shield Gauntlet Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Weapon Focus (gauntlet or spiked gauntlet), proficiency with bucklers and light shields.",
@@ -42552,7 +42586,7 @@
                 "name": "Upsetting Shield Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Dex 13, proficiency with bucklers.",
@@ -42629,7 +42663,7 @@
                 "name": "Vanguard Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Bodyguard, Combat Reflexes, proficiency with light or heavy shields.",
@@ -43865,7 +43899,7 @@
                 "name": "Infuse Poison",
                 "type": "feat",
                 "categories": [
-                    "Item Creation"
+                    "Erschaffung von Gegenständen"
                 ],
                 "prerequisites": "Brew Potion, Craft (alchemy) 5 ranks, caster level 3rd.",
                 "description": "You can infuse a poison with a magical effect.",
@@ -44245,7 +44279,7 @@
                 "name": "Manifold Stare",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Stare"
                 ],
                 "prerequisites": "Mesmerist level 3rd, painful stare class feature.",
@@ -44284,7 +44318,7 @@
                 "name": "Disconcerting Stare",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Stare"
                 ],
                 "prerequisites": "Mesmerist level 5th, painful stare class feature.",
@@ -44969,7 +45003,7 @@
                 "name": "Censoring Critical",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Critical"
                 ],
                 "prerequisites": "Critical Focus, base attack bonus +15.",
@@ -45502,7 +45536,7 @@
                 "name": "Linnorm Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Wis 13, Improved Unarmed Strike, base attack bonus +3 or monk level 3rd.",
@@ -45560,7 +45594,7 @@
                 "name": "Tatzlwyrm Claw Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Dex 13, Improved Grapple, Improved Unarmed Strike, Escape Artist 1 rank.",
@@ -45618,7 +45652,7 @@
                 "name": "Wyvern Fury Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Exotic Weapon Proficiency (whip), Acrobatics 3 ranks, brawler's flurry class feature or flurry of blows class feature.",
@@ -45828,7 +45862,7 @@
                 "name": "Brute Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Str 15, Int 13, Combat Reflexes, Improved Overrun, Improved Trip, Improved Unarmed Strike, Vicious Stomp, base attack bonus +6.",
@@ -45962,7 +45996,7 @@
                 "name": "Deadhand Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Wis 15, Improved Unarmed Strike, Knowledge (religion) 4 ranks, ki pool class feature, nongood alignment.",
@@ -46172,7 +46206,7 @@
                 "name": "Fleshwarper",
                 "type": "feat",
                 "categories": [
-                    "Item Creation"
+                    "Erschaffung von Gegenständen"
                 ],
                 "prerequisites": "Craft (alchemy) 5 ranks, Heal 5 ranks, evil alignment.",
                 "description": "You can create creatures through an abominable alchemical process.",
@@ -46324,7 +46358,7 @@
                 "name": "Kyton Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Wis 13, Exotic Weapon Proficiency (spiked chain), Knowledge (planes) 3 ranks, ki pool class feature.",
@@ -46439,7 +46473,7 @@
                 "name": "Maddening Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Wis 15, Cha 11, Improved Unarmed Strike, Stunning Fist, Knowledge (arcana) 4 ranks, ki pool class feature, nongood alignment.",
@@ -47162,7 +47196,7 @@
                 "name": "Haunt Scavenger",
                 "type": "feat",
                 "categories": [
-                    "Item Creation"
+                    "Erschaffung von Gegenständen"
                 ],
                 "prerequisites": "Any one item creation feat or Craft (alchemy) 3 ranks.",
                 "description": "You can use spiritual essence to craft magic items.",
@@ -47181,7 +47215,7 @@
                 "name": "Crowdcontrol",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Base attack bonus +3.",
@@ -47429,7 +47463,7 @@
                 "name": "Knotted Nets",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Exotic Weapon Proficiency (net), base attack bonus +1.",
@@ -47563,7 +47597,7 @@
                 "name": "Rat Stack",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Dex 13, swarming racial trait.",
@@ -47583,7 +47617,7 @@
                 "name": "Rending Swarm",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Dex 15, Rat Stack, swarming racial trait.",
@@ -47603,7 +47637,7 @@
                 "name": "Squirming Pile",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Acrobatics 5 ranks, swarming racial trait.",
@@ -47794,7 +47828,7 @@
                 "name": "Coordinated Capture",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Base attack bonus +1.",
@@ -47833,7 +47867,7 @@
                 "name": "Covering Fire",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Exotic Weapon Proficiency (firearms), Weapon Focus (at least one firearm).",
@@ -47853,7 +47887,7 @@
                 "name": "Musketeer's Daring",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Panache"
                 ],
                 "prerequisites": "Dex 15, derring-do deed, swashbuckler level 6th.",
@@ -47873,7 +47907,7 @@
                 "name": "Musketeer's Dodge",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Grit"
                 ],
                 "prerequisites": "Exotic Weapon Proficiency (firearms), gunslinger level 3rd, gunslinger's dodge deed.",
@@ -47893,7 +47927,7 @@
                 "name": "Musketeer's Reposition",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Grit"
                 ],
                 "prerequisites": "Exotic Weapon Proficiency (firearms), gunslinger level 6th, pistol-whip deed.",
@@ -47913,7 +47947,7 @@
                 "name": "Musketeer's Sidestep",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Panache"
                 ],
                 "prerequisites": "Dodging panache deed, swashbuckler level 3rd.",
@@ -47933,7 +47967,7 @@
                 "name": "Protective Line",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Exotic Weapon Proficiency (firearms).",
@@ -48105,7 +48139,7 @@
                 "name": "Twin Fang Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Dex 15, Quick Draw, Two-Weapon Fighting, base attack bonus +1, Acrobatics 1 rank.",
@@ -49113,7 +49147,7 @@
                 "name": "Blinding Stare",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Stare"
                 ],
                 "prerequisites": "Mesmerist level 7th, painful stare class feature.",
@@ -49152,7 +49186,7 @@
                 "name": "Confusing Stare",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Stare"
                 ],
                 "prerequisites": "Mesmerist level 7th, painful stare class feature.",
@@ -49191,7 +49225,7 @@
                 "name": "Penetrating Stare",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Stare"
                 ],
                 "prerequisites": "Mesmerist level 7th, painful stare class feature.",
@@ -49211,7 +49245,7 @@
                 "name": "Perturbing Stare",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Stare"
                 ],
                 "prerequisites": "Mesmerist level 5th, painful stare class feature.",
@@ -49630,7 +49664,7 @@
                 "name": "Bull-Catcher Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Dex 13, Improved Grapple, Improved Unarmed Strike.",
@@ -50562,7 +50596,7 @@
                 "name": "Improved Outflank",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Outflank, base attack bonus +6.",
@@ -50582,7 +50616,7 @@
                 "name": "Improved Precise Strike",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Teamwork"
                 ],
                 "prerequisites": "Dex 13, Precise Strike, base attack bonus +4.",
@@ -51590,7 +51624,7 @@
                 "name": "Dolphin Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Improved Unarmed Strike, Swim 3 ranks, base attack bonus +3 or monk level 3rd.",
@@ -51705,7 +51739,7 @@
                 "name": "Shark Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Improved Unarmed Strike, Swim 3 ranks, base attack bonus +3 or monk level 3rd.",
@@ -52029,7 +52063,7 @@
                 "name": "Sisterhood Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Cha 13, Shield Focus, Weapon Focus (longsword), base attack bonus +2.",
@@ -52068,7 +52102,7 @@
                 "name": "Perfect Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Wis 13; base attack bonus +5 or monk level 5th.",
@@ -52525,7 +52559,7 @@
                 "name": "Diva Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Cha 13; base attack bonus +1 or bard level 1st.",
@@ -52602,7 +52636,7 @@
                 "name": "Barracuda Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Wis 13, Improved Unarmed Strike, Acrobatics 3 ranks, Swim 3 ranks.",
@@ -53021,7 +53055,7 @@
                 "name": "Inscribe Rune",
                 "type": "feat",
                 "categories": [
-                    "Item Creation"
+                    "Erschaffung von Gegenständen"
                 ],
                 "prerequisites": "Caster level 3rd.",
                 "description": "You can tattoo arcane runes upon your flesh or the flesh of others.",
@@ -53515,7 +53549,7 @@
                 "name": "Archon Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Combat Expertise; Combat Reflexes; base attack bonus +2 or monk level 1st.",
@@ -53611,7 +53645,7 @@
                 "name": "Azata Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Dodge, Mobility, base attack bonus +2.",
@@ -53764,7 +53798,7 @@
                 "name": "Demonic Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Power Attack, base attack bonus +1.",
@@ -53822,7 +53856,7 @@
                 "name": "Diabolic Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Combat Reflexes; Improved Unarmed Strike or Weapon Focus (unarmed strike); base attack bonus +2 or monk level 1st.",
@@ -54697,7 +54731,7 @@
                 "name": "Asura Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Wis 13, Improved Unarmed Strike, base attack bonus +5 or monk level 5th.",
@@ -54755,7 +54789,7 @@
                 "name": "Cerberus Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Cleave, Improved Unarmed Strike, base attack bonus +6 or monk level 6th.",
@@ -55459,7 +55493,7 @@
                 "name": "Lantern Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Point-Blank Shot, good or lawful alignment, caster level 1st or monk level 1st.",
@@ -55593,7 +55627,7 @@
                 "name": "Shikigami Style",
                 "type": "feat",
                 "categories": [
-                    "Combat",
+                    "Kampf",
                     "Style"
                 ],
                 "prerequisites": "Catch Off-Guard or Throw Anything.",
@@ -55942,65 +55976,65 @@
         },
         {
             "data": {
-                "id": "arcaneArmorMastery|arcaneArmorTraining",
-                "source": "arcaneArmorTraining",
-                "target": "arcaneArmorMastery"
+                "id": "arkaneRuestungsmeisterschaft|arkanesRuestungstraining",
+                "source": "arkanesRuestungstraining",
+                "target": "arkaneRuestungsmeisterschaft"
             }
         },
         {
             "data": {
-                "id": "arcaneArmorMastery|mediumArmorProficiency",
-                "source": "mediumArmorProficiency",
-                "target": "arcaneArmorMastery"
+                "id": "arkaneRuestungsmeisterschaft|umgangMitRuestungenMittelschwere",
+                "source": "umgangMitRuestungenMittelschwere",
+                "target": "arkaneRuestungsmeisterschaft"
             }
         },
         {
             "data": {
-                "id": "arcaneArmorTraining|lightArmorProficiency",
-                "source": "lightArmorProficiency",
-                "target": "arcaneArmorTraining"
+                "id": "arkanesRuestungstraining|umgangMitRuestungenLeichte",
+                "source": "umgangMitRuestungenLeichte",
+                "target": "arkanesRuestungstraining"
             }
         },
         {
             "data": {
-                "id": "heavyArmorProficiency|lightArmorProficiency",
-                "source": "lightArmorProficiency",
-                "target": "heavyArmorProficiency"
+                "id": "umgangMitRuestungenSchwere|umgangMitRuestungenLeichte",
+                "source": "umgangMitRuestungenLeichte",
+                "target": "umgangMitRuestungenSchwere"
             }
         },
         {
             "data": {
-                "id": "heavyArmorProficiency|mediumArmorProficiency",
-                "source": "mediumArmorProficiency",
-                "target": "heavyArmorProficiency"
+                "id": "umgangMitRuestungenSchwere|umgangMitRuestungenMittelschwere",
+                "source": "umgangMitRuestungenMittelschwere",
+                "target": "umgangMitRuestungenSchwere"
             }
         },
         {
             "data": {
-                "id": "mediumArmorProficiency|lightArmorProficiency",
-                "source": "lightArmorProficiency",
-                "target": "mediumArmorProficiency"
+                "id": "umgangMitRuestungenMittelschwere|umgangMitRuestungenLeichte",
+                "source": "umgangMitRuestungenLeichte",
+                "target": "umgangMitRuestungenMittelschwere"
             }
         },
         {
             "data": {
-                "id": "augmentSummoning|spellFocus",
+                "id": "verstaerkteHerbeizauberung|spellFocus",
                 "source": "spellFocus",
-                "target": "augmentSummoning"
+                "target": "verstaerkteHerbeizauberung"
             }
         },
         {
             "data": {
-                "id": "bleedingCritical|criticalFocus",
+                "id": "kritischerTrefferBlutend|criticalFocus",
                 "source": "criticalFocus",
-                "target": "bleedingCritical"
+                "target": "kritischerTrefferBlutend"
             }
         },
         {
             "data": {
-                "id": "blindingCritical|criticalFocus",
+                "id": "kritischerTrefferBlind|criticalFocus",
                 "source": "criticalFocus",
-                "target": "blindingCritical"
+                "target": "kritischerTrefferBlind"
             }
         },
         {
@@ -56432,8 +56466,8 @@
         },
         {
             "data": {
-                "id": "improvisedWeaponMastery|catchOffGuard",
-                "source": "catchOffGuard",
+                "id": "improvisedWeaponMastery|improvisierterNahkampf",
+                "source": "improvisierterNahkampf",
                 "target": "improvisedWeaponMastery"
             }
         },
@@ -57195,8 +57229,8 @@
         },
         {
             "data": {
-                "id": "improvedBlindFight|blindFight",
-                "source": "blindFight",
+                "id": "improvedBlindFight|blindKaempfen",
+                "source": "blindKaempfen",
                 "target": "improvedBlindFight"
             }
         },
@@ -57643,8 +57677,8 @@
         },
         {
             "data": {
-                "id": "underAndOver|agileManeuvers",
-                "source": "agileManeuvers",
+                "id": "underAndOver|flinkeManoever",
+                "source": "flinkeManoever",
                 "target": "underAndOver"
             }
         },
@@ -58259,8 +58293,8 @@
         },
         {
             "data": {
-                "id": "dispellingCritical|arcaneStrike",
-                "source": "arcaneStrike",
+                "id": "dispellingCritical|arkanerSchlag",
+                "source": "arkanerSchlag",
                 "target": "dispellingCritical"
             }
         },
@@ -59379,8 +59413,8 @@
         },
         {
             "data": {
-                "id": "moonlightStalker|blindFight",
-                "source": "blindFight",
+                "id": "moonlightStalker|blindKaempfen",
+                "source": "blindKaempfen",
                 "target": "moonlightStalker"
             }
         },
@@ -59393,8 +59427,8 @@
         },
         {
             "data": {
-                "id": "moonlightStalkerFeint|blindFight",
-                "source": "blindFight",
+                "id": "moonlightStalkerFeint|blindKaempfen",
+                "source": "blindKaempfen",
                 "target": "moonlightStalkerFeint"
             }
         },
@@ -59421,8 +59455,8 @@
         },
         {
             "data": {
-                "id": "moonlightStalkerMaster|blindFight",
-                "source": "blindFight",
+                "id": "moonlightStalkerMaster|blindKaempfen",
+                "source": "blindKaempfen",
                 "target": "moonlightStalkerMaster"
             }
         },
@@ -59925,8 +59959,8 @@
         },
         {
             "data": {
-                "id": "ricochetShotDeed|blindFight",
-                "source": "blindFight",
+                "id": "ricochetShotDeed|blindKaempfen",
+                "source": "blindKaempfen",
                 "target": "ricochetShotDeed"
             }
         },
@@ -60408,8 +60442,8 @@
         },
         {
             "data": {
-                "id": "createSanguineElixir|brewPotion",
-                "source": "brewPotion",
+                "id": "createSanguineElixir|trankBrauen",
+                "source": "trankBrauen",
                 "target": "createSanguineElixir"
             }
         },
@@ -60541,8 +60575,8 @@
         },
         {
             "data": {
-                "id": "superiorSummoning|augmentSummoning",
-                "source": "augmentSummoning",
+                "id": "superiorSummoning|verstaerkteHerbeizauberung",
+                "source": "verstaerkteHerbeizauberung",
                 "target": "superiorSummoning"
             }
         },
@@ -60625,8 +60659,8 @@
         },
         {
             "data": {
-                "id": "uncannyAlertness|alertness",
-                "source": "alertness",
+                "id": "uncannyAlertness|wachsamkeit",
+                "source": "wachsamkeit",
                 "target": "uncannyAlertness"
             }
         },
@@ -60814,8 +60848,8 @@
         },
         {
             "data": {
-                "id": "ferociousSummons|augmentSummoning",
-                "source": "augmentSummoning",
+                "id": "ferociousSummons|verstaerkteHerbeizauberung",
+                "source": "verstaerkteHerbeizauberung",
                 "target": "ferociousSummons"
             }
         },
@@ -61164,8 +61198,8 @@
         },
         {
             "data": {
-                "id": "gloomStrike|blindFight",
-                "source": "blindFight",
+                "id": "gloomStrike|blindKaempfen",
+                "source": "blindKaempfen",
                 "target": "gloomStrike"
             }
         },
@@ -61570,8 +61604,8 @@
         },
         {
             "data": {
-                "id": "sunlitStrike|arcaneStrike",
-                "source": "arcaneStrike",
+                "id": "sunlitStrike|arkanerSchlag",
+                "source": "arkanerSchlag",
                 "target": "sunlitStrike"
             }
         },
@@ -61724,8 +61758,8 @@
         },
         {
             "data": {
-                "id": "andorenFalconry|animalAffinity",
-                "source": "animalAffinity",
+                "id": "andorenFalconry|verbundenheitMitTieren",
+                "source": "verbundenheitMitTieren",
                 "target": "andorenFalconry"
             }
         },
@@ -61766,8 +61800,8 @@
         },
         {
             "data": {
-                "id": "shrewdTactician|alertness",
-                "source": "alertness",
+                "id": "shrewdTactician|wachsamkeit",
+                "source": "wachsamkeit",
                 "target": "shrewdTactician"
             }
         },
@@ -62697,8 +62731,8 @@
         },
         {
             "data": {
-                "id": "craftOoze|brewPotion",
-                "source": "brewPotion",
+                "id": "craftOoze|trankBrauen",
+                "source": "trankBrauen",
                 "target": "craftOoze"
             }
         },
@@ -62781,8 +62815,8 @@
         },
         {
             "data": {
-                "id": "alignEquipment|alignmentChannel",
-                "source": "alignmentChannel",
+                "id": "alignEquipment|gesinnungFokussieren",
+                "source": "gesinnungFokussieren",
                 "target": "alignEquipment"
             }
         },
@@ -62977,8 +63011,8 @@
         },
         {
             "data": {
-                "id": "nimbleNaturalSummons|augmentSummoning",
-                "source": "augmentSummoning",
+                "id": "nimbleNaturalSummons|verstaerkteHerbeizauberung",
+                "source": "verstaerkteHerbeizauberung",
                 "target": "nimbleNaturalSummons"
             }
         },
@@ -63082,8 +63116,8 @@
         },
         {
             "data": {
-                "id": "deadlyDealer|arcaneStrike",
-                "source": "arcaneStrike",
+                "id": "deadlyDealer|arkanerSchlag",
+                "source": "arkanerSchlag",
                 "target": "deadlyDealer"
             }
         },
@@ -63229,8 +63263,8 @@
         },
         {
             "data": {
-                "id": "bloodedArcaneStrike|arcaneStrike",
-                "source": "arcaneStrike",
+                "id": "bloodedArcaneStrike|arkanerSchlag",
+                "source": "arkanerSchlag",
                 "target": "bloodedArcaneStrike"
             }
         },
@@ -63355,8 +63389,8 @@
         },
         {
             "data": {
-                "id": "evolvedSummonedMonster|augmentSummoning",
-                "source": "augmentSummoning",
+                "id": "evolvedSummonedMonster|verstaerkteHerbeizauberung",
+                "source": "verstaerkteHerbeizauberung",
                 "target": "evolvedSummonedMonster"
             }
         },
@@ -63726,8 +63760,8 @@
         },
         {
             "data": {
-                "id": "rivingStrike|arcaneStrike",
-                "source": "arcaneStrike",
+                "id": "rivingStrike|arkanerSchlag",
+                "source": "arkanerSchlag",
                 "target": "rivingStrike"
             }
         },
@@ -63796,8 +63830,8 @@
         },
         {
             "data": {
-                "id": "chairbreaker|catchOffGuard",
-                "source": "catchOffGuard",
+                "id": "chairbreaker|improvisierterNahkampf",
+                "source": "improvisierterNahkampf",
                 "target": "chairbreaker"
             }
         },
@@ -64748,8 +64782,8 @@
         },
         {
             "data": {
-                "id": "oneEyeOpen|alertness",
-                "source": "alertness",
+                "id": "oneEyeOpen|wachsamkeit",
+                "source": "wachsamkeit",
                 "target": "oneEyeOpen"
             }
         },
@@ -64776,8 +64810,8 @@
         },
         {
             "data": {
-                "id": "electricDischarge|arcaneStrike",
-                "source": "arcaneStrike",
+                "id": "electricDischarge|arkanerSchlag",
+                "source": "arkanerSchlag",
                 "target": "electricDischarge"
             }
         },
@@ -64986,8 +65020,8 @@
         },
         {
             "data": {
-                "id": "dimensionalAwareness|arcaneStrike",
-                "source": "arcaneStrike",
+                "id": "dimensionalAwareness|arkanerSchlag",
+                "source": "arkanerSchlag",
                 "target": "dimensionalAwareness"
             }
         },
@@ -65014,8 +65048,8 @@
         },
         {
             "data": {
-                "id": "dimensionalDisruption|arcaneStrike",
-                "source": "arcaneStrike",
+                "id": "dimensionalDisruption|arkanerSchlag",
+                "source": "arkanerSchlag",
                 "target": "dimensionalDisruption"
             }
         },
@@ -65126,8 +65160,8 @@
         },
         {
             "data": {
-                "id": "versatileSummonNatureSAlly|augmentSummoning",
-                "source": "augmentSummoning",
+                "id": "versatileSummonNatureSAlly|verstaerkteHerbeizauberung",
+                "source": "verstaerkteHerbeizauberung",
                 "target": "versatileSummonNatureSAlly"
             }
         },
@@ -65343,8 +65377,8 @@
         },
         {
             "data": {
-                "id": "ambushAwareness|alertness",
-                "source": "alertness",
+                "id": "ambushAwareness|wachsamkeit",
+                "source": "wachsamkeit",
                 "target": "ambushAwareness"
             }
         },
@@ -65595,8 +65629,8 @@
         },
         {
             "data": {
-                "id": "oneMind|alertness",
-                "source": "alertness",
+                "id": "oneMind|wachsamkeit",
+                "source": "wachsamkeit",
                 "target": "oneMind"
             }
         },
@@ -65651,8 +65685,8 @@
         },
         {
             "data": {
-                "id": "triangulate|blindFight",
-                "source": "blindFight",
+                "id": "triangulate|blindKaempfen",
+                "source": "blindKaempfen",
                 "target": "triangulate"
             }
         },
@@ -65700,8 +65734,8 @@
         },
         {
             "data": {
-                "id": "spectrumSight|alertness",
-                "source": "alertness",
+                "id": "spectrumSight|wachsamkeit",
+                "source": "wachsamkeit",
                 "target": "spectrumSight"
             }
         },
@@ -66722,8 +66756,8 @@
         },
         {
             "data": {
-                "id": "blindedBladeStyle|blindFight",
-                "source": "blindFight",
+                "id": "blindedBladeStyle|blindKaempfen",
+                "source": "blindKaempfen",
                 "target": "blindedBladeStyle"
             }
         },
@@ -66736,8 +66770,8 @@
         },
         {
             "data": {
-                "id": "blindedCompetence|blindFight",
-                "source": "blindFight",
+                "id": "blindedCompetence|blindKaempfen",
+                "source": "blindKaempfen",
                 "target": "blindedCompetence"
             }
         },
@@ -66750,8 +66784,8 @@
         },
         {
             "data": {
-                "id": "blindedMaster|blindFight",
-                "source": "blindFight",
+                "id": "blindedMaster|blindKaempfen",
+                "source": "blindKaempfen",
                 "target": "blindedMaster"
             }
         },
@@ -66918,8 +66952,8 @@
         },
         {
             "data": {
-                "id": "circuitousShot|blindFight",
-                "source": "blindFight",
+                "id": "circuitousShot|blindKaempfen",
+                "source": "blindKaempfen",
                 "target": "circuitousShot"
             }
         },
@@ -66974,8 +67008,8 @@
         },
         {
             "data": {
-                "id": "cunningIntuition|alertness",
-                "source": "alertness",
+                "id": "cunningIntuition|wachsamkeit",
+                "source": "wachsamkeit",
                 "target": "cunningIntuition"
             }
         },
@@ -67128,8 +67162,8 @@
         },
         {
             "data": {
-                "id": "gracefulSteal|agileManeuvers",
-                "source": "agileManeuvers",
+                "id": "gracefulSteal|flinkeManoever",
+                "source": "flinkeManoever",
                 "target": "gracefulSteal"
             }
         },
@@ -67443,8 +67477,8 @@
         },
         {
             "data": {
-                "id": "readyForAnything|alertness",
-                "source": "alertness",
+                "id": "readyForAnything|wachsamkeit",
+                "source": "wachsamkeit",
                 "target": "readyForAnything"
             }
         },
@@ -68353,8 +68387,8 @@
         },
         {
             "data": {
-                "id": "infusePoison|brewPotion",
-                "source": "brewPotion",
+                "id": "infusePoison|trankBrauen",
+                "source": "trankBrauen",
                 "target": "infusePoison"
             }
         },
@@ -68381,8 +68415,8 @@
         },
         {
             "data": {
-                "id": "eldritchAssault|blindFight",
-                "source": "blindFight",
+                "id": "eldritchAssault|blindKaempfen",
+                "source": "blindKaempfen",
                 "target": "eldritchAssault"
             }
         },
@@ -68493,8 +68527,8 @@
         },
         {
             "data": {
-                "id": "hellknightAegis|heavyArmorProficiency",
-                "source": "heavyArmorProficiency",
+                "id": "hellknightAegis|umgangMitRuestungenSchwere",
+                "source": "umgangMitRuestungenSchwere",
                 "target": "hellknightAegis"
             }
         },
@@ -68507,22 +68541,22 @@
         },
         {
             "data": {
-                "id": "signiferArmorTraining|arcaneArmorMastery",
-                "source": "arcaneArmorMastery",
+                "id": "signiferArmorTraining|arkaneRuestungsmeisterschaft",
+                "source": "arkaneRuestungsmeisterschaft",
                 "target": "signiferArmorTraining"
             }
         },
         {
             "data": {
-                "id": "signiferArmorTraining|arcaneArmorTraining",
-                "source": "arcaneArmorTraining",
+                "id": "signiferArmorTraining|arkanesRuestungstraining",
+                "source": "arkanesRuestungstraining",
                 "target": "signiferArmorTraining"
             }
         },
         {
             "data": {
-                "id": "signiferArmorTraining|heavyArmorProficiency",
-                "source": "heavyArmorProficiency",
+                "id": "signiferArmorTraining|umgangMitRuestungenSchwere",
+                "source": "umgangMitRuestungenSchwere",
                 "target": "signiferArmorTraining"
             }
         },
@@ -69207,8 +69241,8 @@
         },
         {
             "data": {
-                "id": "sensoryControl|blindFight",
-                "source": "blindFight",
+                "id": "sensoryControl|blindKaempfen",
+                "source": "blindKaempfen",
                 "target": "sensoryControl"
             }
         },
@@ -69333,8 +69367,8 @@
         },
         {
             "data": {
-                "id": "twoWeaponDrunkard|catchOffGuard",
-                "source": "catchOffGuard",
+                "id": "twoWeaponDrunkard|improvisierterNahkampf",
+                "source": "improvisierterNahkampf",
                 "target": "twoWeaponDrunkard"
             }
         },
@@ -69368,8 +69402,8 @@
         },
         {
             "data": {
-                "id": "uncannyAlly|alertness",
-                "source": "alertness",
+                "id": "uncannyAlly|wachsamkeit",
+                "source": "wachsamkeit",
                 "target": "uncannyAlly"
             }
         },
@@ -69592,8 +69626,8 @@
         },
         {
             "data": {
-                "id": "auralInsight|blindFight",
-                "source": "blindFight",
+                "id": "auralInsight|blindKaempfen",
+                "source": "blindKaempfen",
                 "target": "auralInsight"
             }
         },
@@ -69606,8 +69640,8 @@
         },
         {
             "data": {
-                "id": "searingDistraction|catchOffGuard",
-                "source": "catchOffGuard",
+                "id": "searingDistraction|improvisierterNahkampf",
+                "source": "improvisierterNahkampf",
                 "target": "searingDistraction"
             }
         },
@@ -69802,8 +69836,8 @@
         },
         {
             "data": {
-                "id": "aldoriStyle|alertness",
-                "source": "alertness",
+                "id": "aldoriStyle|wachsamkeit",
+                "source": "wachsamkeit",
                 "target": "aldoriStyle"
             }
         },
@@ -69837,8 +69871,8 @@
         },
         {
             "data": {
-                "id": "aldoriStyleAegis|alertness",
-                "source": "alertness",
+                "id": "aldoriStyleAegis|wachsamkeit",
+                "source": "wachsamkeit",
                 "target": "aldoriStyleAegis"
             }
         },
@@ -69886,8 +69920,8 @@
         },
         {
             "data": {
-                "id": "aldoriStyleConquest|alertness",
-                "source": "alertness",
+                "id": "aldoriStyleConquest|wachsamkeit",
+                "source": "wachsamkeit",
                 "target": "aldoriStyleConquest"
             }
         },
@@ -70019,8 +70053,8 @@
         },
         {
             "data": {
-                "id": "garenSDiscipline|alertness",
-                "source": "alertness",
+                "id": "garenSDiscipline|wachsamkeit",
+                "source": "wachsamkeit",
                 "target": "garenSDiscipline"
             }
         },
@@ -70411,8 +70445,8 @@
         },
         {
             "data": {
-                "id": "tribalHunter|animalAffinity",
-                "source": "animalAffinity",
+                "id": "tribalHunter|verbundenheitMitTieren",
+                "source": "verbundenheitMitTieren",
                 "target": "tribalHunter"
             }
         },
@@ -70621,8 +70655,8 @@
         },
         {
             "data": {
-                "id": "azataMischief|agileManeuvers",
-                "source": "agileManeuvers",
+                "id": "azataMischief|flinkeManoever",
+                "source": "flinkeManoever",
                 "target": "azataMischief"
             }
         },
@@ -70649,8 +70683,8 @@
         },
         {
             "data": {
-                "id": "azataSprint|agileManeuvers",
-                "source": "agileManeuvers",
+                "id": "azataSprint|flinkeManoever",
+                "source": "flinkeManoever",
                 "target": "azataSprint"
             }
         },
@@ -71097,8 +71131,8 @@
         },
         {
             "data": {
-                "id": "shikigamiStyle|catchOffGuard",
-                "source": "catchOffGuard",
+                "id": "shikigamiStyle|improvisierterNahkampf",
+                "source": "improvisierterNahkampf",
                 "target": "shikigamiStyle"
             }
         },
@@ -71111,8 +71145,8 @@
         },
         {
             "data": {
-                "id": "shikigamiMimicry|catchOffGuard",
-                "source": "catchOffGuard",
+                "id": "shikigamiMimicry|improvisierterNahkampf",
+                "source": "improvisierterNahkampf",
                 "target": "shikigamiMimicry"
             }
         },
@@ -71132,8 +71166,8 @@
         },
         {
             "data": {
-                "id": "shikigamiManipulation|catchOffGuard",
-                "source": "catchOffGuard",
+                "id": "shikigamiManipulation|improvisierterNahkampf",
+                "source": "improvisierterNahkampf",
                 "target": "shikigamiManipulation"
             }
         },

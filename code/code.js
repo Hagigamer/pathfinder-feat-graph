@@ -12,7 +12,7 @@ String.prototype.replaceUmlauts = function replaceUmlauts() {
     'Ü': 'UE',
     'ü': 'ue',
     'ß': 'ss',
-    'ẞ': 'SS'
+    'ẞ': 'SS',
   };
   return this.split('').map(char => umlautMap[char] || char).join('');
 };
@@ -129,7 +129,7 @@ function removeSplashScreen() {
 function searchFeats(featName) {
   removeSplashScreen();
   // Convert to camelCase and log
-  const camelCaseName = featName.replaceUmlauts().toCamelCase();
+  const camelCaseName = featName.replaceUmlauts().toCamelCase().replace(')','');
   // Search for the element
   const feat = cy.getElementById(camelCaseName);
   if (feat.length === 0) {
@@ -160,10 +160,13 @@ function setFeatSection(displayText, section) {
   const htmlSection = document.getElementById(`feat-${section}-section`);
   const htmlText = document.getElementById(`feat-${section}`);
   if (displayText) {
-    htmlText.textContent = displayText;
     if (section === 'prdLink') {
+      htmlText.textContent = 'Link';
       htmlText.href = displayText;
       htmlText.style.display = 'block';
+    }
+    else {
+      htmlText.textContent = displayText;
     }
     htmlSection.hidden = false;
   } else {
