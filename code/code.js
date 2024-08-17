@@ -5,16 +5,22 @@ String.prototype.toCamelCase = function toCamelCase() {
 // Define the Cytoscape instance outside of the initial setup
 let cy;
 
+// Function to initialize Cytoscape
 async function initializeCy(locale) {
-  // Fetch graph data and styles based on the selected locale
+  console.log("Initializing Cytoscape for locale:", locale);
+
+  if (cy) {
+    cy.destroy(); // Clean up the old instance
+    cy = null; // Ensure cy is set to null to prevent issues
+  }
+
   const elements = await fetch(`data/${locale}/talents.json`).then(res => res.json());
   const style = await fetch('style/cy-style.json').then(res => res.json());
 
-  // Initialize Cytoscape
   cy = cytoscape({
-    container: document.getElementById('cy'), // container to render in
+    container: document.getElementById('cy'),
     elements: elements,
-    style: style, // Style path remains the same
+    style: style,
     layout: { name: 'grid' },
     autoungrabify: true,
     minZoom: 0.2,
@@ -22,7 +28,6 @@ async function initializeCy(locale) {
     wheelSensitivity: 0.5,
   });
 
-  // Event listeners remain the same
   cy.on('select', 'node', function (event) {
     displayFeat(event.target);
   });
@@ -31,11 +36,11 @@ async function initializeCy(locale) {
     document.getElementById('feat-info').classList.add('d-none');
   });
 
-  cy.ready(event => {
+  cy.ready(() => {
     console.log("Graph loaded for locale:", locale);
   });
 
-  // Re-bind the search input after reinitializing the graph
+  // Ensure search functionality is updated if necessary
   bindSearch(locale);
 }
 
@@ -117,13 +122,7 @@ document.getElementById('search').addEventListener("change", event => {
   searchFeats(event.target.value);
 });
 
-// Initialize Cytoscape with the default locale when the page loads
-document.addEventListener("DOMContentLoaded", async () => {
-  const initialLocale = GetCurrentOrDefaultLocale(browserLocales(true));
-  await initializeCy(initialLocale); // Load the graph data initially
-});
-
 async function updateGraphForLocale(newLocale) {
-  console.log("code.js locale changed to:", newLocale);
+  console.log("Updating graph for locale:", newLocale);
   await initializeCy(newLocale); // Re-initialize Cytoscape with the new language
 }

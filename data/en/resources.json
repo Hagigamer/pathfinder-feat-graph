@@ -2,5 +2,5 @@
     "start": "Start by Searching!",
     "header": "Pathfinder Feats Web",
     "logGraphLoaded": "Graph loaded!",
-    "search": "Search..."
+    "searchPlaceholder": "Search..."
 }
